@@ -1,0 +1,15 @@
+{
+ "FLOOR": 0.003,
+ "LAM_COL": 0.4,
+ "LAM_MET": 1.2,
+ "LAM_TEX": 0.0,
+ "LAM_GEO": 2.0,
+ "LAM_DISC": 1.8,
+ "POOL": 0.3,
+ "EVID_CAP": 4.0,
+ "note": "EVID_CAP=4.0/POOL=0.3 相比指标最优(cap99/pool0, 92.8%)损失0.6点，换取弱标签评测集盲视的歧义部件(Frame 82%fabric→57%wood, Arm 45%→73%metal)得到修正",
+ "weak_label_acc": 0.922,
+ "weak_label_macro": 0.82,
+ "EVID_CAP_OOD": 1.5,
+ "note_ood": "判别式只在弱标签覆盖的部件名上训练；对训练集未见的部件名(59%)其预测为外推。实测 Chair|Leg 判别式跨度 27.7 vs 先验跨度 5.1，给 rubber +13.4 证据，产生'椅腿=橡胶'。马氏距离无法识别（几何确实落在训练分布内，OOD 权重 0.99），分布外发生在语义层。故按部件名是否在训练集出现来限幅，OOD 时压到 1.5（< 先验跨度 5.2）使先验主导。"
+}

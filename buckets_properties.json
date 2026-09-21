@@ -1,0 +1,4489 @@
+{
+ "aluminium": {
+  "cls": "metal_nonferrous",
+  "class17": "metal",
+  "n_rows": 165,
+  "usable": true,
+  "rho": {
+   "value": 2710.0,
+   "p25": 2710.0,
+   "p75": 2710.0,
+   "n": 158,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 71.0,
+   "p25": 70.0,
+   "p75": 72.4,
+   "n": 160,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.33,
+   "p25": 0.33,
+   "p75": 0.33,
+   "n": 165,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "AA5087",
+   "2014 Aluminum #37",
+   "2014 Aluminum Alloy #35",
+   "2017 Aluminum Alloy #38",
+   "2024 Aluminum #42",
+   "2024 Aluminum Alloy #43"
+  ],
+  "n_parts_in_release": 4071
+ },
+ "magnesium": {
+  "cls": "metal_nonferrous",
+  "class17": "metal",
+  "n_rows": 46,
+  "usable": true,
+  "rho": {
+   "value": 1800.0,
+   "p25": 1800.0,
+   "p75": 1800.0,
+   "n": 44,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 44.8,
+   "p25": 43.85,
+   "p75": 45.0,
+   "n": 44,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.33,
+   "p25": 0.33,
+   "p75": 0.33,
+   "n": 46,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "AM100A #115",
+   "AZ31B Magnesium #110",
+   "AZ31B Magnesium Alloy #109",
+   "AZ31B Magnesium Alloy #111",
+   "AZ61A Magnesium #112",
+   "AZ91C Magnesium #116"
+  ],
+  "n_parts_in_release": 0
+ },
+ "titanium": {
+  "cls": "metal_nonferrous",
+  "class17": "metal",
+  "n_rows": 75,
+  "usable": true,
+  "rho": {
+   "value": 4430.0,
+   "p25": 4430.0,
+   "p75": 4430.0,
+   "n": 25,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 109.6,
+   "p25": 80.0,
+   "p75": 115.25,
+   "n": 75,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.33,
+   "p25": 0.33,
+   "p75": 0.33,
+   "n": 75,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Ti-13Nb-13Zr",
+   "Ti-34Nb-13Ta-5Zr-0.2O",
+   "Ti-41Nb",
+   "Ti-6Al-4V",
+   "Ti-6Al-7Nb",
+   "Commercially Pure Titanium #121"
+  ],
+  "n_parts_in_release": 0
+ },
+ "copper": {
+  "cls": "metal_nonferrous",
+  "class17": "metal",
+  "n_rows": 9,
+  "usable": true,
+  "rho": {
+   "value": 8600.0,
+   "p25": 8600.0,
+   "p75": 8600.0,
+   "n": 8,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 127.6,
+   "p25": 125.0,
+   "p75": 127.6,
+   "n": 9,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.27,
+   "p25": 0.27,
+   "p75": 0.33,
+   "n": 9,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "C17200 Copper #163",
+   "C17200 Copper #164",
+   "C17200 Copper #165",
+   "C17200 Copper #166",
+   "Copper Beryllium Strip #162",
+   "beryllium copper"
+  ],
+  "n_parts_in_release": 5218
+ },
+ "brass_bronze": {
+  "cls": "metal_nonferrous",
+  "class17": "metal",
+  "n_rows": 8,
+  "usable": true,
+  "rho": {
+   "value": 8600.0,
+   "p25": 8600.0,
+   "p75": 8600.0,
+   "n": 5,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 110.0,
+   "p25": 102.025,
+   "p75": 111.625,
+   "n": 8,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.33,
+   "p25": 0.33,
+   "p75": 0.33,
+   "n": 8,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "C86300 Manganese Bronze #161",
+   "C86500 Manganese Bronze #160",
+   "CuZn37",
+   "Phosphor bronze",
+   "nickel aluminum bronze",
+   "brass"
+  ],
+  "n_parts_in_release": 20607
+ },
+ "zinc": {
+  "cls": "metal_nonferrous",
+  "class17": "metal",
+  "n_rows": 1,
+  "usable": true,
+  "rho": {
+   "value": 6600.0,
+   "p25": 6600.0,
+   "p75": 6600.0,
+   "n": 1,
+   "source_ids": [
+    "eazall_zamak_tds"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 85.5,
+   "p25": 85.5,
+   "p75": 85.5,
+   "n": 1,
+   "source_ids": [
+    "eazall_zamak_tds"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.33,
+   "p25": 0.33,
+   "p75": 0.33,
+   "n": 1,
+   "source_ids": [
+    "eazall_zamak_tds"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Zamak 3 (AC40A) zinc die casting alloy"
+  ],
+  "n_parts_in_release": 0
+ },
+ "nickel_superalloy": {
+  "cls": "metal_nonferrous",
+  "class17": "metal",
+  "n_rows": 19,
+  "usable": true,
+  "rho": {
+   "value": 8220.0,
+   "p25": 8220.0,
+   "p75": 8220.0,
+   "n": 19,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 205.5,
+   "p25": 202.7,
+   "p75": 206.8,
+   "n": 19,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.32,
+   "p25": 0.29,
+   "p75": 0.33,
+   "n": 19,
+   "source_ids": [
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Hastelloy X Sheet and Plate #141",
+   "Inconel 600 #142",
+   "Inconel 600 Bar and Rod #143",
+   "Inconel 600 Bar and Rod #144",
+   "Inconel 625 Bar #146",
+   "Inconel 625 Sheet #145"
+  ],
+  "n_parts_in_release": 0
+ },
+ "stainless": {
+  "cls": "metal_ferrous",
+  "class17": "metal",
+  "n_rows": 63,
+  "usable": true,
+  "rho": {
+   "value": 7800.0,
+   "p25": 7800.0,
+   "p75": 7800.0,
+   "n": 63,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 196.5,
+   "p25": 193.0,
+   "p75": 200.0,
+   "n": 63,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.29,
+   "p25": 0.29,
+   "p75": 0.29,
+   "n": 63,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "17-4 PH",
+   "15-5PH #25",
+   "15-5PH Stainless Steel #27",
+   "15-5PH Stainless Steel Plate #26",
+   "17-4PH Stainless Steel #30",
+   "17-4PH Stainless Steel #31"
+  ],
+  "n_parts_in_release": 5527
+ },
+ "carbon_steel": {
+  "cls": "metal_ferrous",
+  "class17": "metal",
+  "n_rows": 313,
+  "usable": true,
+  "rho": {
+   "value": 7850.0,
+   "p25": 7850.0,
+   "p75": 7850.0,
+   "n": 312,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 203.0,
+   "p25": 197.0,
+   "p75": 208.5,
+   "n": 313,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.29,
+   "p25": 0.29,
+   "p75": 0.29,
+   "n": 313,
+   "source_ids": [
+    "fatigue_am2022",
+    "mil_hdbk_5j",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "18Ni300",
+   "18Ni300 + 1.2083 steel",
+   "18Ni300 + 1.2344 steel",
+   "15-5PH Stainless Steel #27",
+   "15-5PH Stainless Steel Plate #26",
+   "17-4PH Stainless Steel #30"
+  ],
+  "n_parts_in_release": 55816
+ },
+ "cast_iron": {
+  "cls": "metal_ferrous",
+  "class17": "metal",
+  "n_rows": 3,
+  "usable": true,
+  "rho": {
+   "value": 7143.0,
+   "p25": 7128.0,
+   "p75": 7165.5,
+   "n": 3,
+   "source_ids": [
+    "kozlowski2024_grayiron"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 120.5,
+   "p25": 116.5,
+   "p75": 126.0,
+   "n": 3,
+   "source_ids": [
+    "kozlowski2024_grayiron"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.27,
+   "p25": 0.265,
+   "p75": 0.27,
+   "n": 3,
+   "source_ids": [
+    "kozlowski2024_grayiron"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Gray cast iron grade A (OPT) [brake disc, ultrasonic]",
+   "Gray cast iron grade B (OPT) [brake disc, ultrasonic]",
+   "Gray cast iron grade C (OPT) [brake disc, ultrasonic]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "zinc_die_casting": {
+  "cls": "metal_nonferrous",
+  "class17": "metal",
+  "n_rows": 1,
+  "usable": true,
+  "rho": {
+   "value": 6600.0,
+   "p25": 6600.0,
+   "p75": 6600.0,
+   "n": 1,
+   "source_ids": [
+    "eazall_zamak_tds"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 85.5,
+   "p25": 85.5,
+   "p75": 85.5,
+   "n": 1,
+   "source_ids": [
+    "eazall_zamak_tds"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.33,
+   "p25": 0.33,
+   "p75": 0.33,
+   "n": 1,
+   "source_ids": [
+    "eazall_zamak_tds"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Zamak 3 (AC40A) zinc die casting alloy"
+  ],
+  "n_parts_in_release": 0
+ },
+ "borosilicate": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 11,
+  "usable": true,
+  "rho": {
+   "value": 2230.0,
+   "p25": 2229.75,
+   "p75": 2230.0,
+   "n": 11,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 62.6,
+   "p25": 62.15,
+   "p75": 63.0,
+   "n": 9,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.228,
+   "p25": 0.21000000000000002,
+   "p75": 0.228,
+   "n": 11,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "borosilicate",
+   "borosilicate glass",
+   "borosilicate glass",
+   "Corning Pyrex 7740",
+   "Duran",
+   "Duran 50"
+  ],
+  "n_parts_in_release": 27806
+ },
+ "soda_lime_glass": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 2,
+  "usable": true,
+  "rho": {
+   "value": 2500.0,
+   "p25": 2500.0,
+   "p75": 2500.0,
+   "n": 2,
+   "source_ids": [
+    "stresseng_figshare"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 72.0,
+   "p25": 72.0,
+   "p75": 72.0,
+   "n": 2,
+   "source_ids": [
+    "stresseng_figshare"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.228,
+   "p25": 0.228,
+   "p75": 0.228,
+   "n": 2,
+   "source_ids": [
+    "stresseng_figshare"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "soda-lime",
+   "soda-lime-silicate"
+  ],
+  "n_parts_in_release": 4
+ },
+ "fused_silica": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 1,
+  "usable": true,
+  "rho": {
+   "value": 2200.0,
+   "p25": 2200.0,
+   "p75": 2200.0,
+   "n": 1,
+   "source_ids": [
+    "stresseng_figshare"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 72.0,
+   "p25": 72.0,
+   "p75": 72.0,
+   "n": 1,
+   "source_ids": [
+    "stresseng_figshare"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.228,
+   "p25": 0.228,
+   "p75": 0.228,
+   "n": 1,
+   "source_ids": [
+    "stresseng_figshare"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "fused silica"
+  ],
+  "n_parts_in_release": 0
+ },
+ "glass_other": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 536,
+  "usable": true,
+  "rho": {
+   "value": 2550.0,
+   "p25": 2320.0,
+   "p75": 3155.0,
+   "n": 499,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 65.7,
+   "p25": 62.15,
+   "p75": 72.0,
+   "n": 468,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.228,
+   "p25": 0.228,
+   "p75": 0.228,
+   "n": 536,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "borosilicate",
+   "fused silica",
+   "soda-lime",
+   "soda-lime-silicate",
+   "borosilicate glass",
+   "borosilicate glass"
+  ],
+  "superseded_by": [
+   "glass_other__silicate",
+   "glass_other__soda",
+   "glass_other__dense",
+   "glass_other__heavy",
+   "glass_other__vheavy"
+  ],
+  "n_parts_in_release": 0
+ },
+ "technical_ceramic": {
+  "cls": "ceramic",
+  "class17": "ceramic",
+  "n_rows": 16,
+  "usable": true,
+  "rho": {
+   "value": 3950.0,
+   "p25": 3391.5,
+   "p75": 5025.0,
+   "n": 15,
+   "source_ids": [
+    "nist_ceramics_pds",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 295.5,
+   "p25": 200.0,
+   "p75": 342.375,
+   "n": 12,
+   "source_ids": [
+    "nist_ceramics_pds",
+    "stresseng_figshare",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2835,
+   "p25": 0.2835,
+   "p75": 0.2835,
+   "n": 16,
+   "source_ids": [
+    "nist_ceramics_pds",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "alumina (sintered alpha-alumina (Al2O3))",
+   "Al2O3",
+   "Alumina-titania",
+   "In-Ceram Alumina",
+   "Si3N4",
+   "Zirconia ZrO2-1"
+  ],
+  "n_parts_in_release": 0
+ },
+ "whiteware": {
+  "cls": "ceramic",
+  "class17": "ceramic",
+  "n_rows": 2,
+  "usable": true,
+  "rho": {
+   "value": 2350.0,
+   "p25": 2275.0,
+   "p75": 2425.0,
+   "n": 2,
+   "source_ids": [
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 75.025,
+   "p25": 73.5125,
+   "p75": 76.5375,
+   "n": 2,
+   "source_ids": [
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.20400000000000001,
+   "p25": 0.192,
+   "p75": 0.216,
+   "n": 2,
+   "source_ids": [
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Vitreous china / sanitary whiteware [proxy]",
+   "Earthenware / stoneware tableware [proxy]"
+  ],
+  "n_parts_in_release": 1399
+ },
+ "technical_ceramic_other": {
+  "cls": "ceramic",
+  "class17": "ceramic",
+  "n_rows": 121,
+  "usable": true,
+  "rho": {
+   "value": 5013.0,
+   "p25": 3620.0,
+   "p75": 6452.5,
+   "n": 98,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "nist_ceramics_pds",
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 7,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 223.775,
+   "p25": 97.8175,
+   "p75": 350.0,
+   "n": 54,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "nist_ceramics_pds",
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 7,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2835,
+   "p25": 0.2835,
+   "p75": 0.2835,
+   "n": 121,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "nist_ceramics_pds",
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 7,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "BiPb2212 (Bi(Pb):2212 (superconductor))",
+   "BiPb2223 (Bi(Pb):2223 (superconductor))",
+   "LaSr21 (La-Sr (superconductor))",
+   "Pr123 (Pr-Ba-Cu-O (superconductor))",
+   "Sm123 (Sm-Ba-Cu-O (superconductor))",
+   "Y123 (YBa2Cu3O7-x (superconductor))"
+  ],
+  "superseded_by": [
+   "technical_ceramic_other__vlight",
+   "technical_ceramic_other__light",
+   "technical_ceramic_other__mid",
+   "technical_ceramic_other__heavy",
+   "technical_ceramic_other__vheavy"
+  ],
+  "n_parts_in_release": 0
+ },
+ "granite": {
+  "cls": "stone_mineral",
+  "class17": "granite",
+  "n_rows": 4,
+  "usable": true,
+  "rho": {
+   "value": 2652.395,
+   "p25": 2646.0875,
+   "p75": 2721.0924999999997,
+   "n": 4,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc10628249"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 64.52445019550001,
+   "p25": 46.644625000000005,
+   "p75": 79.79419828675,
+   "n": 4,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc10628249"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.230970411,
+   "p25": 0.1994273665,
+   "p75": 0.24421700000000002,
+   "n": 4,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc10628249"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "gabbro",
+   "granite",
+   "granodiorite",
+   "Granite [Vp 6130 m/s]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "marble": {
+  "cls": "stone_mineral",
+  "class17": "marble",
+  "n_rows": 4,
+  "usable": true,
+  "rho": {
+   "value": 2707.95,
+   "p25": 2704.425,
+   "p75": 2710.0,
+   "n": 4,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc10628249",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 70.1450322365,
+   "p25": 60.48852177025,
+   "p75": 72.0,
+   "n": 4,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc10628249",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.287346471,
+   "p25": 0.22867323550000002,
+   "p75": 0.3460197065,
+   "n": 2,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc10628249"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "marble",
+   "marble",
+   "marble",
+   "Marble [Vp 5214 m/s]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "limestone": {
+  "cls": "stone_mineral",
+  "class17": "marble",
+  "n_rows": 10,
+  "usable": true,
+  "rho": {
+   "value": 2550.0,
+   "p25": 1825.0,
+   "p75": 2633.0950000000003,
+   "n": 10,
+   "source_ids": [
+    "alomari2025_rock",
+    "p3_petrophysical",
+    "pmc_pmc10628249",
+    "pmc_pmc3913365",
+    "stresseng_figshare"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 28.109493869,
+   "p25": 15.37,
+   "p75": 29.7,
+   "n": 9,
+   "source_ids": [
+    "alomari2025_rock",
+    "p3_petrophysical",
+    "pmc_pmc10628249",
+    "pmc_pmc3913365",
+    "stresseng_figshare"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.25,
+   "p25": 0.249681,
+   "p75": 0.299164,
+   "n": 5,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc10628249"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "dolomite",
+   "marl",
+   "travertine",
+   "dolomite",
+   "Goose Egg Limestone (Permian)",
+   "Jefferson Limestone (Devonian)"
+  ],
+  "n_parts_in_release": 0
+ },
+ "rock_other": {
+  "cls": "stone_mineral",
+  "class17": "concrete",
+  "n_rows": 16,
+  "usable": true,
+  "rho": {
+   "value": 2445.7,
+   "p25": 2360.0,
+   "p75": 2662.575,
+   "n": 16,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc11643003",
+    "stresseng_figshare"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 20.9,
+   "p25": 14.95,
+   "p75": 34.952884973,
+   "n": 13,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc11643003",
+    "stresseng_figshare"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2171354805,
+   "p25": 0.14886549999999998,
+   "p75": 0.24083425,
+   "n": 12,
+   "source_ids": [
+    "p3_petrophysical",
+    "pmc_pmc11643003"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "amphibolite",
+   "andesite",
+   "basalt",
+   "conglomerate",
+   "dacite",
+   "gneiss"
+  ],
+  "n_parts_in_release": 0
+ },
+ "kraft_board": {
+  "cls": "paper_cellulose",
+  "class17": "paper",
+  "n_rows": 79,
+  "usable": true,
+  "rho": {
+   "value": 760.0,
+   "p25": 686.0,
+   "p75": 843.0,
+   "n": 77,
+   "source_ids": [
+    "bioresources_leng2025_paper",
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper",
+    "pelinski2019_testliner",
+    "santmarti2020_bc_nanopaper",
+    "sobotkova2021_paper_board",
+    "transformer_papers_dib2021",
+    "wikidata"
+   ],
+   "n_sources": 9,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 2.538138,
+   "p25": 1.89089975,
+   "p75": 4.30185175,
+   "n": 26,
+   "source_ids": [
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper",
+    "pelinski2019_testliner",
+    "santmarti2020_bc_nanopaper",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 7,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.31,
+   "p25": 0.21445114153457984,
+   "p75": 0.34,
+   "n": 19,
+   "source_ids": [
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper",
+    "pelinski2019_testliner"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Crepe paper (transformer insulation) [CD]",
+   "Crepe paper (transformer insulation) [MD]",
+   "Plain Kraft paper (transformer insulation) [CD]",
+   "Plain Kraft paper (transformer insulation) [MD]",
+   "cellulose",
+   "paper"
+  ],
+  "superseded_by": [
+   "kraft_board__low_E",
+   "kraft_board__mid_E",
+   "kraft_board__high_E"
+  ],
+  "n_parts_in_release": 0
+ },
+ "woven_textile": {
+  "cls": "textile_woven",
+  "class17": "fabric",
+  "n_rows": 53,
+  "usable": true,
+  "rho": {
+   "value": 297.5,
+   "p25": 217.5515,
+   "p75": 362.8205,
+   "n": 43,
+   "source_ids": [
+    "pinkos2025_upholstery",
+    "roszak2023_aramid",
+    "sajn2023_nonwoven",
+    "seul2023_footwear",
+    "sperl_yarn_level_fabrics"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.000131,
+   "p25": 6.424e-05,
+   "p75": 0.000274,
+   "n": 45,
+   "source_ids": [
+    "arcsim_wang2011",
+    "pmc_pmc12349578",
+    "roszak2023_aramid",
+    "seul2023_footwear",
+    "sperl_yarn_level_fabrics"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.36,
+   "p25": 0.307082,
+   "p75": 0.420411,
+   "n": 25,
+   "source_ids": [
+    "roszak2023_aramid",
+    "seul2023_footwear",
+    "sperl_yarn_level_fabrics"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "11oz-black-denim",
+   "camel-ponte-roma",
+   "gray-interlock",
+   "ivory-rib-knit",
+   "navy-sparkle-sweat",
+   "pink-ribbon-brown"
+  ],
+  "superseded_by": [
+   "woven_textile__membrane_modulus",
+   "woven_textile__bulk_modulus"
+  ],
+  "n_parts_in_release": 0
+ },
+ "hide_leather": {
+  "cls": "leather",
+  "class17": "leather",
+  "n_rows": 45,
+  "usable": true,
+  "rho": {
+   "value": 860.0,
+   "p25": 860.0,
+   "p75": 860.0,
+   "n": 35,
+   "source_ids": [
+    "leather_alternatives_materials2026",
+    "leather_density_nist_jres1943",
+    "leather_pmc9331295",
+    "mycelium_leather_crosslinking",
+    "pesic2025_pinatex",
+    "seul2023_footwear"
+   ],
+   "n_sources": 6,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.0225,
+   "p25": 0.0118,
+   "p75": 0.0286,
+   "n": 29,
+   "source_ids": [
+    "leather_density_nist_jres1943",
+    "leather_pmc9331295",
+    "seul2023_footwear"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.43000000000000005,
+   "p25": 0.41500000000000004,
+   "p75": 0.445,
+   "n": 2,
+   "source_ids": [
+    "leather_pmc9331295",
+    "seul2023_footwear"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "bovine leather [apparent density band]",
+   "M1+M2-S1 (unprocessed)",
+   "M1+M2-S2a (single stitch, 6mm overlap)",
+   "M1+M2-S2b (single stitch, 8mm overlap)",
+   "M1+M2-S2c (double stitch, 6mm overlap)",
+   "M1+M2-S2d (double stitch, 8mm overlap)"
+  ],
+  "n_parts_in_release": 98
+ },
+ "epoxy_thermoset": {
+  "cls": "plastic_thermoset",
+  "class17": "plastic",
+  "n_rows": 61,
+  "usable": true,
+  "rho": {
+   "value": 1200.0,
+   "p25": 1200.0,
+   "p75": 1200.0,
+   "n": 61,
+   "source_ids": [
+    "daki2025_thermoset",
+    "pmc_pmc11174474",
+    "pmc_pmc11767158",
+    "pmc_pmc9332288",
+    "smith1976_particulate_epoxy",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source",
+    "wikidata"
+   ],
+   "n_sources": 8,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 2.955,
+   "p25": 2.33,
+   "p75": 3.9175,
+   "n": 56,
+   "source_ids": [
+    "pmc_pmc11174474",
+    "pmc_pmc9332288",
+    "smith1976_particulate_epoxy",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.378,
+   "p25": 0.35,
+   "p75": 0.402,
+   "n": 11,
+   "source_ids": [
+    "pmc_pmc11767158",
+    "pmc_pmc9332288",
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "(co)polyimides",
+   "Cyanate ester",
+   "DGEBA/MTHPA",
+   "melamine formaldehyde",
+   "polyimide",
+   "913-epoxy"
+  ],
+  "superseded_by": [
+   "epoxy_thermoset__standard",
+   "epoxy_thermoset__stiff"
+  ],
+  "n_parts_in_release": 0
+ },
+ "thermoplastic_soft": {
+  "cls": "plastic_thermoplastic",
+  "class17": "plastic",
+  "n_rows": 0,
+  "usable": false,
+  "n_parts_in_release": 0
+ },
+ "thermoplastic_rigid": {
+  "cls": "plastic_thermoplastic",
+  "class17": "plastic",
+  "n_rows": 1,
+  "usable": true,
+  "rho": {
+   "value": 1410.0,
+   "p25": 1410.0,
+   "p75": 1410.0,
+   "n": 1,
+   "source_ids": [
+    "takayama2024_poisson"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 2.075,
+   "p25": 2.075,
+   "p75": 2.075,
+   "n": 1,
+   "source_ids": [
+    "takayama2024_poisson"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.347,
+   "p25": 0.347,
+   "p75": 0.347,
+   "n": 1,
+   "source_ids": [
+    "takayama2024_poisson"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "POM [injection moulded]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "thermoplastic": {
+  "cls": "plastic_thermoplastic",
+  "class17": "plastic",
+  "n_rows": 55,
+  "usable": true,
+  "rho": {
+   "value": 1140.0,
+   "p25": 954.0,
+   "p75": 1200.0,
+   "n": 47,
+   "source_ids": [
+    "stresseng_figshare",
+    "takayama2024_poisson",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 2.098,
+   "p25": 1.106,
+   "p75": 2.55,
+   "n": 45,
+   "source_ids": [
+    "stresseng_figshare",
+    "takayama2024_poisson",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.36424999999999996,
+   "p25": 0.35462499999999997,
+   "p75": 0.369125,
+   "n": 10,
+   "source_ids": [
+    "takayama2024_poisson",
+    "wikidata"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "HDPE",
+   "Nylon 6,6",
+   "Nylon PA12",
+   "PA12",
+   "PA66",
+   "PES"
+  ],
+  "superseded_by": [
+   "thermoplastic__soft",
+   "thermoplastic__mid_lo",
+   "thermoplastic__mid_hi",
+   "thermoplastic__rigid",
+   "thermoplastic__vrigid"
+  ],
+  "n_parts_in_release": 0
+ },
+ "engineering_rubber": {
+  "cls": "elastomer_rubber",
+  "class17": "rubber",
+  "n_rows": 18,
+  "usable": true,
+  "rho": {
+   "value": 1000.0,
+   "p25": 1000.0,
+   "p75": 1200.0,
+   "n": 17,
+   "source_ids": [
+    "pmc_pmc10300728",
+    "pmc_pmc10780276",
+    "seul2023_footwear",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.0088,
+   "p25": 0.0034,
+   "p75": 0.0173,
+   "n": 17,
+   "source_ids": [
+    "park2025_resilient_mount",
+    "pmc_pmc10780276",
+    "seul2023_footwear",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.42,
+   "p25": 0.42,
+   "p75": 0.42,
+   "n": 1,
+   "source_ids": [
+    "seul2023_footwear"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "NBR",
+   "TPU",
+   "TPU-TPU",
+   "TPU–MEGO",
+   "TPU–TRGO",
+   "Resilient-mount rubber (MIL-M-17508F)"
+  ],
+  "n_parts_in_release": 4236
+ },
+ "soft_silicone": {
+  "cls": "elastomer_rubber",
+  "class17": "rubber",
+  "n_rows": 30,
+  "usable": true,
+  "rho": {
+   "value": 1030.0,
+   "p25": 970.0,
+   "p75": 1070.0,
+   "n": 29,
+   "source_ids": [
+    "rosenbohm_pdms_pah",
+    "srmd",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.0004975,
+   "p25": 0.0002705,
+   "p75": 0.0008272500000000001,
+   "n": 30,
+   "source_ids": [
+    "rosenbohm_pdms_pah",
+    "srmd",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.355,
+   "p25": 0.3175,
+   "p75": 0.39999999999999997,
+   "n": 6,
+   "source_ids": [
+    "rosenbohm_pdms_pah"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "BodyDouble SILK",
+   "Dragon Skin 20",
+   "Dragon Skin 30",
+   "Mold Star 16 FAST",
+   "Mold Star 20T",
+   "Psycho Paint"
+  ],
+  "n_parts_in_release": 0
+ },
+ "elastomer": {
+  "cls": "elastomer_rubber",
+  "class17": "rubber",
+  "n_rows": 48,
+  "usable": true,
+  "rho": {
+   "value": 1020.0,
+   "p25": 1000.0,
+   "p75": 1070.0,
+   "n": 46,
+   "source_ids": [
+    "pmc_pmc10300728",
+    "pmc_pmc10780276",
+    "rosenbohm_pdms_pah",
+    "seul2023_footwear",
+    "srmd",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 7,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.0017963,
+   "p25": 0.000382,
+   "p75": 0.004875,
+   "n": 47,
+   "source_ids": [
+    "park2025_resilient_mount",
+    "pmc_pmc10780276",
+    "rosenbohm_pdms_pah",
+    "seul2023_footwear",
+    "srmd",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 7,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.37,
+   "p25": 0.325,
+   "p75": 0.415,
+   "n": 7,
+   "source_ids": [
+    "rosenbohm_pdms_pah",
+    "seul2023_footwear"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "BodyDouble SILK",
+   "Dragon Skin 20",
+   "Dragon Skin 30",
+   "Mold Star 16 FAST",
+   "Mold Star 20T",
+   "Psycho Paint"
+  ],
+  "superseded_by": [
+   "elastomer__very_soft",
+   "elastomer__soft",
+   "elastomer__firm"
+  ],
+  "n_parts_in_release": 0
+ },
+ "polymer_foam": {
+  "cls": "foam_polymer",
+  "class17": "foam",
+  "n_rows": 27,
+  "usable": true,
+  "rho": {
+   "value": 80.0,
+   "p25": 39.099999999999994,
+   "p75": 119.55,
+   "n": 27,
+   "source_ids": [
+    "fpufeps_pmc10649283",
+    "nist_mdf_foam_dic",
+    "nist_mdf_foam_vn01",
+    "qiu2019_rpuf",
+    "rahman2022_divinycell",
+    "rumianek2021_epp",
+    "vaitkus2022_eps",
+    "zemla2024_rigid_pur"
+   ],
+   "n_sources": 8,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.005998903999999999,
+   "p25": 0.00344,
+   "p75": 0.016390452,
+   "n": 24,
+   "source_ids": [
+    "fpufeps_pmc10649283",
+    "nist_mdf_foam_dic",
+    "qiu2019_rpuf",
+    "rahman2022_divinycell",
+    "rumianek2021_epp",
+    "vaitkus2022_eps",
+    "zemla2024_rigid_pur"
+   ],
+   "n_sources": 7,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2035,
+   "p25": 0.2,
+   "p75": 0.3,
+   "n": 9,
+   "source_ids": [
+    "fpufeps_pmc10649283",
+    "nist_mdf_foam_dic",
+    "qiu2019_rpuf",
+    "rumianek2021_epp"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Dertex Impax VN600 (VN01)",
+   "Rogers PORON XRD P125",
+   "Rogers PORON XRD P155",
+   "Dertex Impax VN600 (VN01) [DIC measured]",
+   "Rogers PORON XRD P125 [DIC measured]",
+   "Rigid polyurethane foam PUR_40"
+  ],
+  "superseded_by": [
+   "polymer_foam__soft",
+   "polymer_foam__mid",
+   "polymer_foam__dense"
+  ],
+  "n_parts_in_release": 0
+ },
+ "cfrp": {
+  "cls": "composite",
+  "class17": "composite",
+  "n_rows": 6,
+  "usable": true,
+  "rho": {
+   "value": 1200.0,
+   "p25": 1200.0,
+   "p75": 1200.0,
+   "n": 1,
+   "source_ids": [
+    "proxy::pmc_pmc9332288"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 35.405,
+   "p25": 19.9525,
+   "p75": 50.8575,
+   "n": 2,
+   "source_ids": [
+    "pmc_pmc7914699",
+    "proxy::pmc_pmc9332288"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.255,
+   "p25": 0.21250000000000002,
+   "p75": 0.29750000000000004,
+   "n": 2,
+   "source_ids": [
+    "pmc_pmc7914699",
+    "proxy::pmc_pmc9332288"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "CFRP (cross-section) on AA2024-T6 aluminium",
+   "CFRP (cross-section) on Ti-6Al-4V",
+   "CFRP (layered edge) on AA2024-T6 aluminium",
+   "CFRP (layered edge) on Ti-6Al-4V",
+   "B-C-600-1270 (carbon) laminate",
+   "Carbon-fibre reinforced polymer (CFRP) laminate [proxy]"
+  ],
+  "n_parts_in_release": 161
+ },
+ "particulate_composite": {
+  "cls": "composite",
+  "class17": "composite",
+  "n_rows": 65,
+  "usable": true,
+  "rho": {
+   "value": 1458.2,
+   "p25": 1288.6,
+   "p75": 1690.4,
+   "n": 31,
+   "source_ids": [
+    "daki2025_thermoset",
+    "pmc_pmc12525924",
+    "proxy::pmc_pmc9332288",
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 12.09,
+   "p25": 5.02,
+   "p75": 66.31,
+   "n": 61,
+   "source_ids": [
+    "daki2025_thermoset",
+    "pmc_pmc12525924",
+    "pmc_pmc7914699",
+    "proxy::pmc_pmc9332288",
+    "smith1976_particulate_epoxy",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 7,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3535,
+   "p25": 0.295,
+   "p75": 0.37675000000000003,
+   "n": 34,
+   "source_ids": [
+    "pmc_pmc7914699",
+    "proxy::pmc_pmc9332288",
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "CFRP (cross-section) on AA2024-T6 aluminium",
+   "CFRP (cross-section) on Ti-6Al-4V",
+   "CFRP (layered edge) on AA2024-T6 aluminium",
+   "CFRP (layered edge) on Ti-6Al-4V",
+   "A359/SiC",
+   "AM0/AZ0"
+  ],
+  "superseded_by": [
+   "particulate_composite__low_E",
+   "particulate_composite__mid_lo",
+   "particulate_composite__mid_hi",
+   "particulate_composite__high_E"
+  ],
+  "n_parts_in_release": 0
+ },
+ "plywood": {
+  "cls": "wood_engineered",
+  "class17": "wood",
+  "n_rows": 7,
+  "usable": true,
+  "rho": {
+   "value": 500.0,
+   "p25": 425.0,
+   "p75": 540.0,
+   "n": 7,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 7.58,
+   "p25": 7.4399999999999995,
+   "p75": 8.125,
+   "n": 7,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 7,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Plywood sheathing, Baldcypress [FPL Table 12-2]",
+   "Plywood sheathing, Douglas-fir [FPL Table 12-2]",
+   "Plywood sheathing, Lauan [FPL Table 12-2]",
+   "Plywood sheathing, Western redcedar [FPL Table 12-2]",
+   "Plywood sheathing, Redwood [FPL Table 12-2]",
+   "Plywood sheathing, Southern Pine [FPL Table 12-2]"
+  ],
+  "n_parts_in_release": 1707
+ },
+ "osb": {
+  "cls": "wood_engineered",
+  "class17": "wood",
+  "n_rows": 16,
+  "usable": true,
+  "rho": {
+   "value": 660.0,
+   "p25": 622.5,
+   "p75": 685.0,
+   "n": 16,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12",
+    "zhang2024_osb"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 5.135,
+   "p25": 4.6875,
+   "p75": 5.705,
+   "n": 16,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12",
+    "zhang2024_osb"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 16,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12",
+    "zhang2024_osb"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Bamboo-oriented strand board (BOSB)",
+   "Wood-oriented strand board (WOSB)",
+   "Oriented strandboard (OSB) mill 1, Southern Pine [FPL Table 12-3]",
+   "Oriented strandboard (OSB) mill 2, Southern Pine [FPL Table 12-3]",
+   "Oriented strandboard (OSB) mill 3, Southern Pine [FPL Table 12-3]",
+   "Oriented strandboard (OSB) mill 4, Southern Pine [FPL Table 12-3]"
+  ],
+  "n_parts_in_release": 2416
+ },
+ "particleboard": {
+  "cls": "wood_engineered",
+  "class17": "wood",
+  "n_rows": 9,
+  "usable": true,
+  "rho": {
+   "value": 710.0,
+   "p25": 650.0,
+   "p75": 720.0,
+   "n": 9,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 3.2,
+   "p25": 3.0,
+   "p75": 3.5,
+   "n": 9,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 9,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Industrial particleboard mill A [FPL Table 12-4]",
+   "Industrial particleboard mill B [FPL Table 12-4]",
+   "Industrial particleboard mill C [FPL Table 12-4]",
+   "Industrial particleboard mill H [FPL Table 12-4]",
+   "Industrial particleboard mill J [FPL Table 12-4]",
+   "Industrial particleboard mill K [FPL Table 12-4]"
+  ],
+  "n_parts_in_release": 15282
+ },
+ "mdf_hardboard": {
+  "cls": "wood_engineered",
+  "class17": "wood",
+  "n_rows": 12,
+  "usable": true,
+  "rho": {
+   "value": 795.0,
+   "p25": 740.0,
+   "p75": 880.0,
+   "n": 10,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12",
+    "yoshihara2011_mdf"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 3.56,
+   "p25": 3.105,
+   "p75": 3.9800000000000004,
+   "n": 11,
+   "source_ids": [
+    "stresseng_figshare",
+    "usda_fpl_gtr190_ch12",
+    "yoshihara2011_mdf"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 10,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12",
+    "yoshihara2011_mdf"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "MDF, non-laminated surface, on steel",
+   "MDF",
+   "MDF [650 kg/m3, flexural vibration]",
+   "Medium-density fiberboard mill 1 [FPL Table 12-6]",
+   "Medium-density fiberboard mill 2 [FPL Table 12-6]",
+   "Medium-density fiberboard mill 3 [FPL Table 12-6]"
+  ],
+  "n_parts_in_release": 3969
+ },
+ "glulam": {
+  "cls": "wood_engineered",
+  "class17": "wood",
+  "n_rows": 1,
+  "usable": true,
+  "rho": {
+   "value": 500.0,
+   "p25": 500.0,
+   "p75": 500.0,
+   "n": 1,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 11.75,
+   "p25": 11.75,
+   "p75": 11.75,
+   "n": 1,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 1,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Glued-laminated timber [FPL Table 12-1]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "engineered_panel": {
+  "cls": "wood_engineered",
+  "class17": "wood",
+  "n_rows": 46,
+  "usable": true,
+  "rho": {
+   "value": 670.0,
+   "p25": 590.0,
+   "p75": 750.0,
+   "n": 43,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12",
+    "yoshihara2011_mdf",
+    "zhang2024_osb"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 4.41,
+   "p25": 3.46,
+   "p75": 5.8825,
+   "n": 44,
+   "source_ids": [
+    "stresseng_figshare",
+    "usda_fpl_gtr190_ch12",
+    "yoshihara2011_mdf",
+    "zhang2024_osb"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 43,
+   "source_ids": [
+    "usda_fpl_gtr190_ch12",
+    "yoshihara2011_mdf",
+    "zhang2024_osb"
+   ],
+   "n_sources": 3,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "MDF, non-laminated surface, on steel",
+   "chipboard, laminated surface, on steel",
+   "MDF",
+   "MDF [650 kg/m3, flexural vibration]",
+   "Bamboo-oriented strand board (BOSB)",
+   "Wood-oriented strand board (WOSB)"
+  ],
+  "n_parts_in_release": 0
+ },
+ "wood_ultralight": {
+  "cls": "wood_solid",
+  "class17": "wood",
+  "n_rows": 411,
+  "usable": true,
+  "band": [
+   0,
+   300
+  ],
+  "rho": {
+   "value": 250.0,
+   "p25": 220.0,
+   "p75": 280.0,
+   "n": 411,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 5.12308553,
+   "p25": 4.672605657,
+   "p75": 5.558640442,
+   "n": 411,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 411,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook"
+   ],
+   "n_sources": 3,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Abies lasiocarpa var. arizonica",
+   "Adansonia fony var. rubrostipa",
+   "Adansonia grandidieri",
+   "Adansonia madagascariensis"
+  ],
+  "n_parts_in_release": 0
+ },
+ "wood_very_light": {
+  "cls": "wood_solid",
+  "class17": "wood",
+  "n_rows": 2154,
+  "usable": true,
+  "band": [
+   300,
+   430
+  ],
+  "rho": {
+   "value": 380.0,
+   "p25": 350.0,
+   "p75": 405.0,
+   "n": 2154,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 6.991116278,
+   "p25": 6.527453583,
+   "p75": 7.315081634,
+   "n": 2154,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 2154,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Abies alba",
+   "Abies alba subsp. alba",
+   "Abies amabilis",
+   "Abies balsamea"
+  ],
+  "n_parts_in_release": 0
+ },
+ "wood_light": {
+  "cls": "wood_solid",
+  "class17": "wood",
+  "n_rows": 3316,
+  "usable": true,
+  "band": [
+   430,
+   520
+  ],
+  "rho": {
+   "value": 480.0,
+   "p25": 455.0,
+   "p75": 500.0,
+   "n": 3316,
+   "source_ids": [
+    "charuk2024_plywood",
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 6,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 8.194236441,
+   "p25": 7.946949241,
+   "p75": 8.438654447,
+   "n": 3316,
+   "source_ids": [
+    "charuk2024_plywood",
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 6,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 3316,
+   "source_ids": [
+    "charuk2024_plywood",
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 6,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Abies cephalonica",
+   "Abies jaliscana",
+   "Abies lasiocarpa",
+   "Abies pindrow"
+  ],
+  "n_parts_in_release": 0
+ },
+ "wood_medium": {
+  "cls": "wood_solid",
+  "class17": "wood",
+  "n_rows": 4242,
+  "usable": true,
+  "band": [
+   520,
+   605
+  ],
+  "rho": {
+   "value": 560.0,
+   "p25": 540.0,
+   "p75": 580.0,
+   "n": 4242,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 9.214879971,
+   "p25": 8.919454765,
+   "p75": 9.506666277,
+   "n": 4242,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 4242,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Abarema jupunba var. jupunba",
+   "Abies bracteata",
+   "Abrahamia",
+   "Abrahamia ditimena"
+  ],
+  "n_parts_in_release": 0
+ },
+ "wood_medium_dense": {
+  "cls": "wood_solid",
+  "class17": "wood",
+  "n_rows": 3651,
+  "usable": true,
+  "band": [
+   605,
+   690
+  ],
+  "rho": {
+   "value": 645.0,
+   "p25": 620.0,
+   "p75": 660.0,
+   "n": 3651,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 10.193243925,
+   "p25": 9.909424035,
+   "p75": 10.418103273,
+   "n": 3651,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 3651,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Abrahamia nitida",
+   "Abrahamia sericea",
+   "Abrahamia thouvenotii",
+   "Abuta brevifolia"
+  ],
+  "n_parts_in_release": 0
+ },
+ "wood_dense": {
+  "cls": "wood_solid",
+  "class17": "wood",
+  "n_rows": 3399,
+  "usable": true,
+  "band": [
+   690,
+   800
+  ],
+  "rho": {
+   "value": 730.0,
+   "p25": 710.0,
+   "p75": 760.0,
+   "n": 3399,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 11.190812994,
+   "p25": 10.862275443,
+   "p75": 11.515641135,
+   "n": 3399,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 3399,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Abies numidica",
+   "Abrahamia turkii",
+   "Acacia",
+   "Acacia acinacea"
+  ],
+  "n_parts_in_release": 0
+ },
+ "wood_very_dense": {
+  "cls": "wood_solid",
+  "class17": "wood",
+  "n_rows": 1933,
+  "usable": true,
+  "band": [
+   800,
+   1000
+  ],
+  "rho": {
+   "value": 850.0,
+   "p25": 820.0,
+   "p75": 890.0,
+   "n": 1933,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 12.365065657,
+   "p25": 12.049271049,
+   "p75": 13.090072018,
+   "n": 1933,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 1933,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2",
+    "usda_wood_handbook",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Abarema cochliocarpos",
+   "Acacia acradenia",
+   "Acacia adsurgens",
+   "Acacia aneura"
+  ],
+  "n_parts_in_release": 0
+ },
+ "wood_extreme": {
+  "cls": "wood_solid",
+  "class17": "wood",
+  "n_rows": 191,
+  "usable": true,
+  "band": [
+   1000,
+   1000000000.0
+  ],
+  "rho": {
+   "value": 1050.0,
+   "p25": 1020.0,
+   "p75": 1092.5,
+   "n": 191,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 16.730312938,
+   "p25": 14.322845734000001,
+   "p75": 17.2719436745,
+   "n": 191,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3665,
+   "p25": 0.3665,
+   "p75": 0.3665,
+   "n": 191,
+   "source_ids": [
+    "cirad_wood_density",
+    "gwdd_v2.2"
+   ],
+   "n_sources": 2,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "Acacia cambagei",
+   "Acacia omalophylla",
+   "Acacia peuce",
+   "Acacia rhodoxylon"
+  ],
+  "n_parts_in_release": 0
+ },
+ "technical_ceramic_other__vlight": {
+  "cls": "ceramic",
+  "class17": "ceramic",
+  "n_rows": 18,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   null,
+   3300
+  ],
+  "parent": "technical_ceramic_other",
+  "rho": {
+   "value": 2270.0,
+   "p25": 1786.5,
+   "p75": 3073.25,
+   "n": 18,
+   "source_ids": [
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 310.0,
+   "p25": 78.05,
+   "p75": 350.0,
+   "n": 5,
+   "source_ids": [
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare",
+    "stresseng_figshare"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2835,
+   "p25": 0.2835,
+   "p75": 0.2835,
+   "n": 18,
+   "source_ids": [
+    "proxy::nist_ceramics_elasticity",
+    "proxy::stresseng_figshare",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Aluminum nitride",
+   "Si3N4",
+   "silicon carbides",
+   "Sodium aluminate",
+   "Titania"
+  ],
+  "n_parts_in_release": 0
+ },
+ "technical_ceramic_other__light": {
+  "cls": "ceramic",
+  "class17": "ceramic",
+  "n_rows": 23,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   3300,
+   4300
+  ],
+  "parent": "technical_ceramic_other",
+  "rho": {
+   "value": 3950.0,
+   "p25": 3580.0,
+   "p75": 4022.5,
+   "n": 23,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "nist_ceramics_pds",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 295.5,
+   "p25": 275.125,
+   "p75": 374.125,
+   "n": 10,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "nist_ceramics_pds",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2835,
+   "p25": 0.2835,
+   "p75": 0.2835,
+   "n": 23,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "nist_ceramics_pds",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "BiPb2223 (Bi(Pb):2223 (superconductor))",
+   "alumina (sintered alpha-alumina (Al2O3))",
+   "Al2O3",
+   "Alumina-titania",
+   "Cubic boron nitride"
+  ],
+  "n_parts_in_release": 0
+ },
+ "technical_ceramic_other__mid": {
+  "cls": "ceramic",
+  "class17": "ceramic",
+  "n_rows": 33,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   4300,
+   6500
+  ],
+  "parent": "technical_ceramic_other",
+  "rho": {
+   "value": 5460.0,
+   "p25": 5026.0,
+   "p75": 6050.0,
+   "n": 33,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 173.5,
+   "p25": 64.875,
+   "p75": 221.05,
+   "n": 12,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2835,
+   "p25": 0.2835,
+   "p75": 0.2835,
+   "n": 33,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "class_imputed"
+  },
+  "examples": [
+   "BiPb2212 (Bi(Pb):2212 (superconductor))",
+   "Pr123 (Pr-Ba-Cu-O (superconductor))",
+   "Sm123 (Sm-Ba-Cu-O (superconductor))",
+   "Y123 (YBa2Cu3O7-x (superconductor))",
+   "Chromium nitride"
+  ],
+  "n_parts_in_release": 0
+ },
+ "technical_ceramic_other__heavy": {
+  "cls": "ceramic",
+  "class17": "ceramic",
+  "n_rows": 15,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   6500,
+   8500
+  ],
+  "parent": "technical_ceramic_other",
+  "rho": {
+   "value": 7123.0,
+   "p25": 6885.0,
+   "p75": 7450.0,
+   "n": 15,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 196.015,
+   "p25": 111.39750000000001,
+   "p75": 321.375,
+   "n": 4,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2835,
+   "p25": 0.2835,
+   "p75": 0.2835,
+   "n": 15,
+   "source_ids": [
+    "nist_ceramics_elasticity",
+    "stresseng_figshare",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "LaSr21 (La-Sr (superconductor))",
+   "Cr3C2",
+   "NbC",
+   "PZT",
+   "indium oxide"
+  ],
+  "n_parts_in_release": 0
+ },
+ "technical_ceramic_other__vheavy": {
+  "cls": "ceramic",
+  "class17": "ceramic",
+  "n_rows": 9,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   8500,
+   null
+  ],
+  "parent": "technical_ceramic_other",
+  "rho": {
+   "value": 11600.0,
+   "p25": 11140.0,
+   "p75": 14400.0,
+   "n": 9,
+   "source_ids": [
+    "wikidata"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": null,
+  "nu": {
+   "value": 0.2835,
+   "p25": 0.2835,
+   "p75": 0.2835,
+   "n": 9,
+   "source_ids": [
+    "wikidata"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "curium(IV) oxide",
+   "lutetium nitride",
+   "mercury(I) oxide",
+   "mercury(II) oxide",
+   "neptunium(IV) oxide"
+  ],
+  "n_parts_in_release": 0
+ },
+ "polymer_foam__soft": {
+  "cls": "foam_polymer",
+  "class17": "foam",
+  "n_rows": 11,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   null,
+   60
+  ],
+  "parent": "polymer_foam",
+  "rho": {
+   "value": 30.0,
+   "p25": 18.7,
+   "p75": 41.95,
+   "n": 11,
+   "source_ids": [
+    "fpufeps_pmc10649283",
+    "rumianek2021_epp",
+    "vaitkus2022_eps",
+    "zemla2024_rigid_pur"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.00369,
+   "p25": 0.0032199999999999998,
+   "p75": 0.005348904,
+   "n": 11,
+   "source_ids": [
+    "fpufeps_pmc10649283",
+    "rumianek2021_epp",
+    "vaitkus2022_eps",
+    "zemla2024_rigid_pur"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.01,
+   "p25": 0.005,
+   "p75": 0.10500000000000001,
+   "n": 3,
+   "source_ids": [
+    "fpufeps_pmc10649283",
+    "rumianek2021_epp"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Rigid polyurethane foam PUR_40",
+   "Rigid polyurethane foam PUR_60",
+   "Rigid polyurethane foam BioPUR_40",
+   "Rigid polyurethane foam BioPUR_60",
+   "Expanded polypropylene (EPP) [20 kg/m3]"
+  ],
+  "n_parts_in_release": 183
+ },
+ "polymer_foam__mid": {
+  "cls": "foam_polymer",
+  "class17": "foam",
+  "n_rows": 11,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   60,
+   150
+  ],
+  "parent": "polymer_foam",
+  "rho": {
+   "value": 99.6,
+   "p25": 80.65,
+   "p75": 112.05,
+   "n": 11,
+   "source_ids": [
+    "nist_mdf_foam_dic",
+    "nist_mdf_foam_vn01",
+    "rahman2022_divinycell",
+    "rumianek2021_epp",
+    "zemla2024_rigid_pur"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.0137782415,
+   "p25": 0.00715633825,
+   "p75": 0.02449810875,
+   "n": 10,
+   "source_ids": [
+    "nist_mdf_foam_dic",
+    "rahman2022_divinycell",
+    "rumianek2021_epp",
+    "zemla2024_rigid_pur"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3,
+   "p25": 0.2671,
+   "p75": 0.3,
+   "n": 3,
+   "source_ids": [
+    "nist_mdf_foam_dic",
+    "rumianek2021_epp"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Dertex Impax VN600 (VN01)",
+   "Dertex Impax VN600 (VN01) [DIC measured]",
+   "Rigid polyurethane foam PUR_80",
+   "Rigid polyurethane foam PUR_100",
+   "Rigid polyurethane foam PUR_120"
+  ],
+  "n_parts_in_release": 0
+ },
+ "polymer_foam__dense": {
+  "cls": "foam_polymer",
+  "class17": "foam",
+  "n_rows": 5,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   150,
+   null
+  ],
+  "parent": "polymer_foam",
+  "rho": {
+   "value": 200.0,
+   "p25": 192.0,
+   "p75": 200.0,
+   "n": 5,
+   "source_ids": [
+    "nist_mdf_foam_dic",
+    "nist_mdf_foam_vn01",
+    "qiu2019_rpuf",
+    "rumianek2021_epp"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.02561,
+   "p25": 0.012873771,
+   "p75": 0.058855000000000005,
+   "n": 3,
+   "source_ids": [
+    "nist_mdf_foam_dic",
+    "qiu2019_rpuf",
+    "rumianek2021_epp"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2035,
+   "p25": 0.20174999999999998,
+   "p75": 0.25175,
+   "n": 3,
+   "source_ids": [
+    "nist_mdf_foam_dic",
+    "qiu2019_rpuf",
+    "rumianek2021_epp"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Rogers PORON XRD P125",
+   "Rogers PORON XRD P155",
+   "Rogers PORON XRD P125 [DIC measured]",
+   "Expanded polypropylene (EPP) [200 kg/m3]",
+   "Rigid polyurethane foam [200 kg/m3, untreated]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "kraft_board__low_E": {
+  "cls": "paper_cellulose",
+  "class17": "paper",
+  "n_rows": 7,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   null,
+   2.0
+  ],
+  "parent": "kraft_board",
+  "rho": {
+   "value": 675.0,
+   "p25": 646.7,
+   "p75": 769.5999999999999,
+   "n": 7,
+   "source_ids": [
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 1.474,
+   "p25": 1.3321185,
+   "p75": 1.5629085,
+   "n": 7,
+   "source_ids": [
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.2092,
+   "p25": 0.15096618387741062,
+   "p75": 0.2294873238580992,
+   "n": 7,
+   "source_ids": [
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Test Liner 135 [CD, 135 g/m2, 0.2 mm]",
+   "Semichemical fluting 140 [CD, 140 g/m2, 0.16 mm]",
+   "Test liner white 125 [CD, 125 g/m2, 0.15 mm]",
+   "Medium fluting 120 [CD, 120 g/m2, 0.17 mm]",
+   "Liner 120 [CD, 120 g/m2, 0.19 mm]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "kraft_board__mid_E": {
+  "cls": "paper_cellulose",
+  "class17": "paper",
+  "n_rows": 9,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   2.0,
+   3.5
+  ],
+  "parent": "kraft_board",
+  "rho": {
+   "value": 705.9,
+   "p25": 631.6,
+   "p75": 820.0000000000001,
+   "n": 9,
+   "source_ids": [
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper",
+    "pelinski2019_testliner"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 2.18,
+   "p25": 2.114878,
+   "p75": 2.706276,
+   "n": 9,
+   "source_ids": [
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper",
+    "pelinski2019_testliner"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.33,
+   "p25": 0.2413,
+   "p75": 0.34,
+   "n": 9,
+   "source_ids": [
+    "corrbox_pmc10054506",
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper",
+    "pelinski2019_testliner"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Testliner 2 [CD, 123 g/m2, 0.15 mm]",
+   "Semichemical fluting 115 [CD, 115 g/m2, 0.21 mm]",
+   "Semichemical fluting 140 [MD, 140 g/m2, 0.16 mm]",
+   "Test liner white 125 [MD, 125 g/m2, 0.15 mm]",
+   "Medium fluting 120 [MD, 120 g/m2, 0.17 mm]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "kraft_board__high_E": {
+  "cls": "paper_cellulose",
+  "class17": "paper",
+  "n_rows": 10,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   3.5,
+   null
+  ],
+  "parent": "kraft_board",
+  "rho": {
+   "value": 682.35,
+   "p25": 665.475,
+   "p75": 773.2,
+   "n": 8,
+   "source_ids": [
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper",
+    "pelinski2019_testliner",
+    "santmarti2020_bc_nanopaper"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 4.9209925,
+   "p25": 3.80061725,
+   "p75": 5.65,
+   "n": 10,
+   "source_ids": [
+    "corrwave_pmc10126572",
+    "kmita2023_honeycomb_paper",
+    "pelinski2019_testliner",
+    "santmarti2020_bc_nanopaper",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 6,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.34,
+   "p25": 0.335,
+   "p75": 0.36,
+   "n": 3,
+   "source_ids": [
+    "corrwave_pmc10126572",
+    "pelinski2019_testliner"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "paper",
+   "paper",
+   "Bacterial cellulose nanopaper [20 g/m2]",
+   "Bacterial cellulose nanopaper [80 g/m2]",
+   "Testliner 2 [MD, 123 g/m2, 0.15 mm]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "glass_other__silicate": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 162,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   null,
+   2450
+  ],
+  "parent": "glass_other",
+  "rho": {
+   "value": 2250.0,
+   "p25": 2204.625,
+   "p75": 2300.0,
+   "n": 162,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 65.7,
+   "p25": 62.15,
+   "p75": 70.05,
+   "n": 152,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.228,
+   "p25": 0.20413625,
+   "p75": 0.228,
+   "n": 162,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "examples": [
+   "borosilicate",
+   "fused silica",
+   "borosilicate glass",
+   "borosilicate glass",
+   "1639"
+  ],
+  "n_parts_in_release": 923
+ },
+ "glass_other__soda": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 154,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   2450,
+   2750
+  ],
+  "parent": "glass_other",
+  "rho": {
+   "value": 2533.5,
+   "p25": 2495.0,
+   "p75": 2600.0,
+   "n": 154,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 65.7,
+   "p25": 65.7,
+   "p75": 70.55,
+   "n": 113,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.228,
+   "p25": 0.228,
+   "p75": 0.228,
+   "n": 154,
+   "source_ids": [
+    "sciglass",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "soda-lime",
+   "soda-lime-silicate",
+   "105",
+   "13-v",
+   "140"
+  ],
+  "n_parts_in_release": 0
+ },
+ "glass_other__dense": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 66,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   2750,
+   3200
+  ],
+  "parent": "glass_other",
+  "rho": {
+   "value": 2980.0,
+   "p25": 2850.0,
+   "p75": 3060.0,
+   "n": 66,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 65.7,
+   "p25": 64.75,
+   "p75": 68.65,
+   "n": 59,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.228,
+   "p25": 0.228,
+   "p75": 0.23391425000000002,
+   "n": 66,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "111",
+   "123a",
+   "3079ª",
+   "45S5",
+   "AR-fibre"
+  ],
+  "n_parts_in_release": 0
+ },
+ "glass_other__heavy": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 80,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   3200,
+   4000
+  ],
+  "parent": "glass_other",
+  "rho": {
+   "value": 3590.0,
+   "p25": 3456.5,
+   "p75": 3660.0,
+   "n": 80,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 65.7,
+   "p25": 57.825,
+   "p75": 76.375,
+   "n": 72,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.23,
+   "p25": 0.228,
+   "p75": 0.25993625,
+   "n": 80,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "1650ª",
+   "B402",
+   "B7657",
+   "B8761",
+   "BF11"
+  ],
+  "n_parts_in_release": 0
+ },
+ "glass_other__vheavy": {
+  "cls": "glass",
+  "class17": "glass",
+  "n_rows": 37,
+  "usable": true,
+  "band_on": "rho",
+  "band_range": [
+   4000,
+   null
+  ],
+  "parent": "glass_other",
+  "rho": {
+   "value": 4470.0,
+   "p25": 4160.0,
+   "p75": 4930.0,
+   "n": 37,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 65.7,
+   "p25": 54.25,
+   "p75": 98.4,
+   "n": 35,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.240119,
+   "p25": 0.228,
+   "p75": 0.285564,
+   "n": 37,
+   "source_ids": [
+    "sciglass"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "BF16",
+   "C5845",
+   "C8132",
+   "C9930",
+   "Corning 7570"
+  ],
+  "n_parts_in_release": 0
+ },
+ "elastomer__very_soft": {
+  "cls": "elastomer_rubber",
+  "class17": "rubber",
+  "n_rows": 10,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   null,
+   0.0003
+  ],
+  "parent": "elastomer",
+  "rho": {
+   "value": 1070.0,
+   "p25": 1022.5,
+   "p75": 1092.5,
+   "n": 10,
+   "source_ids": [
+    "rosenbohm_pdms_pah",
+    "srmd"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.000191,
+   "p25": 2.69e-05,
+   "p75": 0.00026175,
+   "n": 10,
+   "source_ids": [
+    "rosenbohm_pdms_pah",
+    "srmd"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.325,
+   "p25": 0.3075,
+   "p75": 0.34750000000000003,
+   "n": 4,
+   "source_ids": [
+    "rosenbohm_pdms_pah"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "BodyDouble SILK",
+   "Dragon Skin 20",
+   "Mold Star 16 FAST",
+   "Mold Star 20T",
+   "Rebound 25"
+  ],
+  "n_parts_in_release": 0
+ },
+ "elastomer__soft": {
+  "cls": "elastomer_rubber",
+  "class17": "rubber",
+  "n_rows": 20,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   0.0003,
+   0.003
+  ],
+  "parent": "elastomer",
+  "rho": {
+   "value": 1015.0,
+   "p25": 970.0,
+   "p75": 1070.0,
+   "n": 18,
+   "source_ids": [
+    "pmc_pmc10780276",
+    "rosenbohm_pdms_pah",
+    "srmd",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.0006462,
+   "p25": 0.00050875,
+   "p75": 0.0018005,
+   "n": 20,
+   "source_ids": [
+    "park2025_resilient_mount",
+    "pmc_pmc10780276",
+    "rosenbohm_pdms_pah",
+    "srmd",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 6,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.43,
+   "p25": 0.42,
+   "p75": 0.44,
+   "n": 2,
+   "source_ids": [
+    "rosenbohm_pdms_pah"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Dragon Skin 30",
+   "Psycho Paint",
+   "RTV615",
+   "SortaClear 40",
+   "WAGNERSIL 20 NF"
+  ],
+  "n_parts_in_release": 0
+ },
+ "elastomer__firm": {
+  "cls": "elastomer_rubber",
+  "class17": "rubber",
+  "n_rows": 17,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   0.003,
+   null
+  ],
+  "parent": "elastomer",
+  "rho": {
+   "value": 1000.0,
+   "p25": 1000.0,
+   "p75": 1000.0,
+   "n": 17,
+   "source_ids": [
+    "pmc_pmc10780276",
+    "seul2023_footwear",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.0088,
+   "p25": 0.0046,
+   "p75": 0.0173,
+   "n": 17,
+   "source_ids": [
+    "pmc_pmc10780276",
+    "seul2023_footwear",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.42,
+   "p25": 0.42,
+   "p75": 0.42,
+   "n": 1,
+   "source_ids": [
+    "seul2023_footwear"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "CaO–SiO2–PDMS",
+   "NBR",
+   "PDMS–CaO–SiO2",
+   "PDMS–CaO–SiO2–PES",
+   "PEGA-PDMS"
+  ],
+  "n_parts_in_release": 0
+ },
+ "particulate_composite__low_E": {
+  "cls": "composite",
+  "class17": "composite",
+  "n_rows": 11,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   null,
+   4
+  ],
+  "parent": "particulate_composite",
+  "rho": {
+   "value": 1271.5,
+   "p25": 1246.55,
+   "p75": 1335.85,
+   "n": 11,
+   "source_ids": [
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 3.35,
+   "p25": 3.15,
+   "p75": 3.68,
+   "n": 11,
+   "source_ids": [
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.384,
+   "p25": 0.369,
+   "p75": 0.393,
+   "n": 11,
+   "source_ids": [
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Glass-sphere/epoxy [phi=0.0482, 7 d]",
+   "Glass-sphere/epoxy [phi=0.0495, 10 d]",
+   "Glass-sphere/epoxy [phi=0.0498, 13 d]",
+   "Glass-sphere/epoxy [phi=0.0985, 13 d]",
+   "Glass-sphere/epoxy [phi=0.1477, 14 d]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "particulate_composite__mid_lo": {
+  "cls": "composite",
+  "class17": "composite",
+  "n_rows": 14,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   4,
+   8
+  ],
+  "parent": "particulate_composite",
+  "rho": {
+   "value": 1547.1,
+   "p25": 1458.2,
+   "p75": 1664.2,
+   "n": 13,
+   "source_ids": [
+    "daki2025_thermoset",
+    "proxy::pmc_pmc9332288",
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 5.105,
+   "p25": 4.6975,
+   "p75": 6.5375,
+   "n": 14,
+   "source_ids": [
+    "daki2025_thermoset",
+    "proxy::pmc_pmc9332288",
+    "smith1976_particulate_epoxy",
+    "wikidata"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.373,
+   "p25": 0.347,
+   "p75": 0.3755,
+   "n": 11,
+   "source_ids": [
+    "proxy::pmc_pmc9332288",
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Polyamid 1010 reinforced with 30% glass fiber",
+   "Polyester / 22.8 wt% chopped phosphate glass fibre",
+   "Epoxy / 22.8 wt% chopped phosphate glass fibre",
+   "Glass-sphere/epoxy [phi=0.1983, 8 d]",
+   "Glass-sphere/epoxy [phi=0.2486, 14 d]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "particulate_composite__mid_hi": {
+  "cls": "composite",
+  "class17": "composite",
+  "n_rows": 17,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   8,
+   40
+  ],
+  "parent": "particulate_composite",
+  "rho": {
+   "value": 1784.7,
+   "p25": 1720.4,
+   "p75": 1793.6,
+   "n": 7,
+   "source_ids": [
+    "daki2025_thermoset",
+    "pmc_pmc12525924",
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 22.97,
+   "p25": 11.55,
+   "p75": 25.61,
+   "n": 17,
+   "source_ids": [
+    "daki2025_thermoset",
+    "pmc_pmc12525924",
+    "pmc_pmc7914699",
+    "smith1976_particulate_epoxy",
+    "stresseng_figshare"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.24,
+   "p25": 0.185,
+   "p75": 0.3,
+   "n": 11,
+   "source_ids": [
+    "pmc_pmc7914699",
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "CNF/epoxy",
+   "Mg/Al–Mg",
+   "Polyester / 14.6 wt% continuous phosphate glass fibre",
+   "Epoxy / 14.6 wt% continuous phosphate glass fibre",
+   "HP-B600E NCF / epoxy composite [+45/-45]"
+  ],
+  "n_parts_in_release": 0
+ },
+ "particulate_composite__high_E": {
+  "cls": "composite",
+  "class17": "composite",
+  "n_rows": 19,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   40,
+   null
+  ],
+  "parent": "particulate_composite",
+  "rho": null,
+  "E": {
+   "value": 98.6,
+   "p25": 70.35,
+   "p75": 185.8,
+   "n": 19,
+   "source_ids": [
+    "pmc_pmc7914699",
+    "stresseng_figshare"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.17,
+   "p25": 0.17,
+   "p75": 0.17,
+   "n": 1,
+   "source_ids": [
+    "pmc_pmc7914699"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "A359/SiC",
+   "AM0/AZ0",
+   "Ag/Cu",
+   "Al/Ni",
+   "Al/SiC"
+  ],
+  "n_parts_in_release": 0
+ },
+ "thermoplastic__soft": {
+  "cls": "plastic_thermoplastic",
+  "class17": "plastic",
+  "n_rows": 12,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   null,
+   1.2
+  ],
+  "parent": "thermoplastic",
+  "rho": {
+   "value": 1047.5,
+   "p25": 953.5,
+   "p75": 1185.0,
+   "n": 10,
+   "source_ids": [
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.61175,
+   "p25": 0.4845,
+   "p75": 0.840025,
+   "n": 12,
+   "source_ids": [
+    "stresseng_figshare",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": null,
+  "examples": [
+   "HDPE",
+   "PA12",
+   "iPP",
+   "poly-ethylene HDPE",
+   "polyamide"
+  ],
+  "n_parts_in_release": 340
+ },
+ "thermoplastic__mid_lo": {
+  "cls": "plastic_thermoplastic",
+  "class17": "plastic",
+  "n_rows": 9,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   1.2,
+   2.0
+  ],
+  "parent": "thermoplastic",
+  "rho": {
+   "value": 975.0,
+   "p25": 905.0,
+   "p75": 1140.0,
+   "n": 8,
+   "source_ids": [
+    "stresseng_figshare",
+    "takayama2024_poisson",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 1.449,
+   "p25": 1.376,
+   "p75": 1.59,
+   "n": 9,
+   "source_ids": [
+    "stresseng_figshare",
+    "takayama2024_poisson",
+    "wikidata"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.372,
+   "p25": 0.365,
+   "p75": 0.38125,
+   "n": 3,
+   "source_ids": [
+    "takayama2024_poisson"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Nylon PA12",
+   "PHB",
+   "acrylonitrile butadiene styrene",
+   "polylactic acid",
+   "Isotactic polypropylene"
+  ],
+  "n_parts_in_release": 0
+ },
+ "thermoplastic__mid_hi": {
+  "cls": "plastic_thermoplastic",
+  "class17": "plastic",
+  "n_rows": 13,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   2.0,
+   2.6
+  ],
+  "parent": "thermoplastic",
+  "rho": {
+   "value": 1200.0,
+   "p25": 1185.0,
+   "p75": 1200.0,
+   "n": 11,
+   "source_ids": [
+    "stresseng_figshare",
+    "takayama2024_poisson",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 2.25,
+   "p25": 2.169,
+   "p75": 2.38,
+   "n": 13,
+   "source_ids": [
+    "stresseng_figshare",
+    "takayama2024_poisson",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.36424999999999996,
+   "p25": 0.356,
+   "p75": 0.366125,
+   "n": 6,
+   "source_ids": [
+    "takayama2024_poisson",
+    "wikidata"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Nylon 6,6",
+   "PES",
+   "polyester",
+   "polylactide",
+   "poly(methyl methacrylate)"
+  ],
+  "n_parts_in_release": 58099
+ },
+ "thermoplastic__rigid": {
+  "cls": "plastic_thermoplastic",
+  "class17": "plastic",
+  "n_rows": 7,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   2.6,
+   4.0
+  ],
+  "parent": "thermoplastic",
+  "rho": {
+   "value": 1069.1,
+   "p25": 1050.0,
+   "p75": 1140.0,
+   "n": 7,
+   "source_ids": [
+    "stresseng_figshare",
+    "takayama2024_poisson",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 3.0,
+   "p25": 3.0,
+   "p75": 3.075,
+   "n": 7,
+   "source_ids": [
+    "stresseng_figshare",
+    "takayama2024_poisson",
+    "wikidata",
+    "wikidata_cross_checks"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.3389999999999999,
+   "p25": 0.3389999999999999,
+   "p75": 0.3389999999999999,
+   "n": 1,
+   "source_ids": [
+    "takayama2024_poisson"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "polymethylmethacrylates",
+   "nylon",
+   "polyethylene terephthalate",
+   "polystyrene",
+   "nylon"
+  ],
+  "n_parts_in_release": 0
+ },
+ "thermoplastic__vrigid": {
+  "cls": "plastic_thermoplastic",
+  "class17": "plastic",
+  "n_rows": 4,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   4.0,
+   null
+  ],
+  "parent": "thermoplastic",
+  "rho": {
+   "value": 1140.0,
+   "p25": 1140.0,
+   "p75": 1140.0,
+   "n": 1,
+   "source_ids": [
+    "stresseng_figshare"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 9.9925,
+   "p25": 8.07,
+   "p75": 17.60625,
+   "n": 4,
+   "source_ids": [
+    "stresseng_figshare"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "nu": null,
+  "examples": [
+   "PA66",
+   "Poly(amide–imide)",
+   "Polyether Ether",
+   "polyethersulphone"
+  ],
+  "n_parts_in_release": 0
+ },
+ "epoxy_thermoset__standard": {
+  "cls": "plastic_thermoset",
+  "class17": "plastic",
+  "n_rows": 34,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   null,
+   3.2
+  ],
+  "parent": "epoxy_thermoset",
+  "rho": {
+   "value": 1200.0,
+   "p25": 1187.0,
+   "p75": 1200.0,
+   "n": 34,
+   "source_ids": [
+    "pmc_pmc11174474",
+    "smith1976_particulate_epoxy",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 2.49,
+   "p25": 1.544,
+   "p75": 2.88625,
+   "n": 34,
+   "source_ids": [
+    "pmc_pmc11174474",
+    "smith1976_particulate_epoxy",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 4,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.4005,
+   "p25": 0.3835,
+   "p75": 0.4025,
+   "n": 6,
+   "source_ids": [
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "(co)polyimides",
+   "Cyanate ester",
+   "913-epoxy",
+   "A-epoxy",
+   "APA-epoxy"
+  ],
+  "n_parts_in_release": 0
+ },
+ "epoxy_thermoset__stiff": {
+  "cls": "plastic_thermoset",
+  "class17": "plastic",
+  "n_rows": 22,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   3.2,
+   null
+  ],
+  "parent": "epoxy_thermoset",
+  "rho": {
+   "value": 1200.0,
+   "p25": 1200.0,
+   "p75": 1200.0,
+   "n": 22,
+   "source_ids": [
+    "pmc_pmc11174474",
+    "pmc_pmc9332288",
+    "smith1976_particulate_epoxy",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 4.35,
+   "p25": 3.815,
+   "p75": 6.3000375,
+   "n": 22,
+   "source_ids": [
+    "pmc_pmc11174474",
+    "pmc_pmc9332288",
+    "smith1976_particulate_epoxy",
+    "stresseng_figshare",
+    "stresseng_figshare_single_source"
+   ],
+   "n_sources": 5,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.35,
+   "p25": 0.3475,
+   "p75": 0.369,
+   "n": 4,
+   "source_ids": [
+    "pmc_pmc9332288",
+    "smith1976_particulate_epoxy"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "DGEBA/MTHPA",
+   "melamine formaldehyde",
+   "polyimide",
+   "Asbestos/phenolic",
+   "B-epoxy"
+  ],
+  "n_parts_in_release": 0
+ },
+ "woven_textile__membrane_modulus": {
+  "cls": "textile_woven",
+  "class17": "fabric",
+  "n_rows": 42,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   null,
+   0.01
+  ],
+  "parent": "woven_textile",
+  "rho": {
+   "value": 307.317,
+   "p25": 263.83,
+   "p75": 366.667,
+   "n": 33,
+   "source_ids": [
+    "seul2023_footwear",
+    "sperl_yarn_level_fabrics"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 0.00012,
+   "p25": 5.986e-05,
+   "p75": 0.00023275,
+   "n": 42,
+   "source_ids": [
+    "arcsim_wang2011",
+    "seul2023_footwear",
+    "sperl_yarn_level_fabrics"
+   ],
+   "n_sources": 3,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.361206,
+   "p25": 0.31625650000000005,
+   "p75": 0.421327,
+   "n": 23,
+   "source_ids": [
+    "seul2023_footwear",
+    "sperl_yarn_level_fabrics"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "examples": [
+   "11oz-black-denim",
+   "camel-ponte-roma",
+   "gray-interlock",
+   "ivory-rib-knit",
+   "navy-sparkle-sweat"
+  ],
+  "n_parts_in_release": 40058
+ },
+ "woven_textile__bulk_modulus": {
+  "cls": "textile_woven",
+  "class17": "fabric",
+  "n_rows": 3,
+  "usable": true,
+  "band_on": "E",
+  "band_range": [
+   0.01,
+   null
+  ],
+  "parent": "woven_textile",
+  "rho": {
+   "value": 1440.0,
+   "p25": 1440.0,
+   "p75": 1440.0,
+   "n": 2,
+   "source_ids": [
+    "roszak2023_aramid"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "E": {
+   "value": 71.0,
+   "p25": 64.2,
+   "p75": 93.0,
+   "n": 3,
+   "source_ids": [
+    "pmc_pmc12349578",
+    "roszak2023_aramid"
+   ],
+   "n_sources": 2,
+   "provenance": "measured"
+  },
+  "nu": {
+   "value": 0.32999999999999996,
+   "p25": 0.315,
+   "p75": 0.345,
+   "n": 2,
+   "source_ids": [
+    "roszak2023_aramid"
+   ],
+   "n_sources": 1,
+   "provenance": "measured"
+  },
+  "examples": [
+   "Kevlar ® 29 plain-woven fabric [200 g/m2]",
+   "Twaron aramid fabric [280 g/m2]",
+   "Twaron aramid fabric [173 g/m2]"
+  ],
+  "n_parts_in_release": 0
+ }
+}
