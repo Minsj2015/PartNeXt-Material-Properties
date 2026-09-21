@@ -1,15 +1,3 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-Copyright (c) 2026 Shengjie (Minsj2015)
-
-The annotations in this repository and in the companion dataset
-https://huggingface.co/datasets/minsj1225/PartNeXt-Material-Properties
-are licensed CC BY 4.0. PartNeXt meshes and part masks are CC BY 4.0 by their
-authors (AuWang/PartNeXt, AuWang/PartNeXt_mesh). The material corpus draws on 79
-sources whose individual licenses are listed in material_corpus_sources.csv.
-
-----------------------------------------------------------------------
-
 Attribution 4.0 International
 
 =======================================================================
