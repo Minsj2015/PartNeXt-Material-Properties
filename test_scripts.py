@@ -50,6 +50,14 @@ def run(cmd, **kw):
 
 def make_subset(work):
     import pandas as pd
+    if not os.path.exists(ANN):
+        sys.exit(
+            f"missing {os.path.basename(ANN)}\n"
+            "  The 185 MB annotation table is not in this git repository -- it lives on the Hub.\n"
+            "  Fetch it, then run this test from the download directory:\n"
+            "    hf download minsj1225/PartNeXt-Material-Properties \\\n"
+            "        --repo-type dataset --local-dir ./partnext_mat\n"
+            "    cd partnext_mat && python3 test_scripts.py")
     ann = pd.read_csv(ANN, dtype={"model_id": str, "type_id": str, "part_id": str})
     man = pd.read_csv(MANIFEST, dtype=str)
     a = ann[ann["model_id"].isin(SUBSET)].copy()
