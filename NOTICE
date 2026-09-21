@@ -1,0 +1,17 @@
+Copyright (c) 2026 Shengjie (Minsj2015)
+
+The annotations in this repository and in the companion dataset
+
+    https://huggingface.co/datasets/minsj1225/PartNeXt-Material-Properties
+
+are licensed under CC BY 4.0 (see LICENSE).
+
+Third-party material
+--------------------
+PartNeXt meshes and part masks are CC BY 4.0 by their authors:
+    https://huggingface.co/datasets/AuWang/PartNeXt
+    https://huggingface.co/datasets/AuWang/PartNeXt_mesh
+
+The physical-property corpus draws on 79 openly licensed sources
+(CC0 / CC BY / CC BY-SA / ODbL / MIT / US-Government). Each source's citation,
+DOI or URL, and license is listed per row in material_corpus_sources.csv.
