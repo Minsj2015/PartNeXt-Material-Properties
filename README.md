@@ -75,7 +75,7 @@ for rec in pnx:
 | `download_partnext_meshes.py` | fetches exactly the 23,221 annotated GLBs (55.10 GB), checksum-verified resume |
 | `test_scripts.py` | 50 checks over a 10-model edge-case subset, incl. face indices vs real GLB geometry |
 | `manifest_models.csv` | per model: `glb_relpath`, `glb_bytes`, `glb_sha256`, part count, solver plan |
-| `buckets_properties.json` | 81 property buckets with per-quantity value, P25/P75 and source ids |
+| `buckets_properties.json` | 84 property buckets with per-quantity value, P25/P75 and source ids |
 | `material_corpus_sources.csv` | the 79 corpus sources with citation, DOI/URL, license |
 | `pipeline_config.json` | every fusion weight and threshold used for this release |
 
@@ -94,12 +94,63 @@ python3 test_scripts.py
 | Models | **23,221 / 23,519** |
 | Every `part_id` resolves to an official `masks` key | **333,152 / 333,152 = 100.0000%** |
 | All three properties present | 329,441 (98.89%); 3,711 abstain (sanitary whiteware) |
+| Objects with **no** property at all | **628** (1,523 parts) — every part abstained, so these models cannot be loaded into a simulator as-is |
 
 16,993 PartNeXt parts carry no annotation: 9,844 are geometrically degenerate (≤2 faces),
 2,711 sit in 298 models with no GLB upstream, 12 have no `hierarchyList` node, and
 **4,426 are a genuine pipeline gap** — named parts with real geometry, concentrated in
 keyboards and laptops. A missing `(model_id, part_id)` always means *not annotated*,
 never a failed join.
+
+## Revision 2 — deformation-critical property fix
+
+Scoped to the parts whose material or property values reach a **soft-body deformation**
+solve (`MPM.Elastic` / `FEM.Elastic`). Rigid and cloth parts were left untouched on purpose:
+`E` and `nu` never enter the rigid solver, so editing them there would churn the release
+without changing any simulation.
+
+| Change | Rows |
+|---|---:|
+| values changed — 5,564 deformation-critical, 38 to keep each `(bucket, material_class)` key single-valued, 4 whose material class was untenable for a part being deformed | **5,606** |
+| remapped to three new handbook-reference buckets (below) | 586 |
+| `sim_caveat` gains a near-incompressibility note | 5,378 |
+| `{rho,E,nu}_provenance` → `corrected_to_reference` | 5,918 |
+| missing `membrane_modulus` caveat restored | 1,064 |
+| interval endpoints widened to the point value's own precision | 1,064 |
+
+Three groups of parts were drawing from corpus buckets whose sources describe a *different*
+material. The corpus has no entry for the right one, so each got its own bucket with
+`interval_kind = reference_range`, `provenance = corrected_to_reference` and empty
+`source_ids` — claiming corpus support for a number the corpus does not contain would be
+false. The reasoning for each is in `buckets_properties.json` → `correction_note`.
+
+| New bucket | Parts | Was | Now | Why |
+|---|---:|---|---|---|
+| `flexible_pu_foam__upholstery` | 169 | 3.69 / 13.78 MPa | **40 kPa** | Mattresses, cushions and ear pads were priced off `polymer_foam__soft`, whose sources are **rigid** foam only (rigid PUR, EPS, EPP, Divinycell). At 13.78 MPa a person lying on a 20 cm mattress sinks 0.13 mm. |
+| `polyurethane_wheel` | 325 | 0.646 MPa | **40 MPa** | Caster and skateboard wheels sat in the class-level rubber fallback, which pools soft pads and grips. Cast PU wheel stock is Shore A 85–95. |
+| `cable_jacket__plasticized_pvc` | 92 | 612 MPa | **25 MPa** | Cables took a rigid-thermoplastic value and behaved as rods. Connectors and plugs were **not** remapped — those really are rigid moulded plastic. |
+
+Also: `engineering_rubber` `nu` 0.42 → 0.49 and `polymer_foam__soft` `nu` 0.01 → 0.25.
+
+1,064 class-level `fabric` rows carried values **byte-identical** to the 40,055 rows in
+`woven_textile__membrane_modulus` but no `sim_caveat`. Any loader routing on that column
+sent them into a **volumetric** solver, where a 120 kPa *membrane* modulus (N/m) is read as
+a bulk modulus (Pa). No value was altered — only the missing warning was restored.
+
+All 6,789 parts that reach `MPM.Elastic` or `FEM.Elastic` now pass: `nu` inside the
+constitutive domain, `K` and `G` positive, `E` within 1e2–1e12 Pa, every derived `sim_*`
+column self-consistent with `(rho, E, nu)`, substeps ≤ 641 at the default timestep, and no
+membrane-dimension part in a volumetric solver. The agreement figures below are unchanged by
+this revision — verified by re-running the same protocol on both versions.
+
+**Still knowingly wrong, out of scope for this revision:** 778 `Sofa|*Support Box` parts at
+foam 13.78 MPa (the name suggests an internal frame, so the fix is a material-class decision
+first); the 3,711 abstained parts and the 628 objects they make unusable; household lighting
+glass filed as `borosilicate`; load-bearing hardware whose alloy came from surface colour
+(`golden_hue` / `reddish_hue` in `bucket_basis`); `copper` `nu = 0.27`. `bucket_basis` names
+the rule behind every bucket choice, so those rows can be selected directly.
+
+---
 
 ## Agreement with external physical-property datasets
 
