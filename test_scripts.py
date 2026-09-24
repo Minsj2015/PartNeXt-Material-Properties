@@ -185,7 +185,7 @@ def t_download(work, pm, docs):
     rc, o, _ = run([sys.executable, DL, "--manifest", pm, "--out", out, "--workers", "4"])
     check("re-running skips everything (resume)", rc == 0 and f"already present {len(SUBSET):,}" in o)
 
-    # the bug this replaced: a truncated file used to be accepted as complete
+    # a file that is present but short of its manifest size must be re-fetched, not skipped
     victim = sorted(got, key=os.path.getsize)[-1]
     orig = os.path.getsize(victim)
     with open(victim, "r+b") as f:

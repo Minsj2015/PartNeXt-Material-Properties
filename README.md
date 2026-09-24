@@ -121,9 +121,9 @@ solver; `E` and `nu` never enter a rigid-body solve.
 
 Three buckets carry `interval_kind = reference_range`: their value and interval come from a
 published handbook range because the 79-source corpus holds no grade for that material. Their
-`{rho,E,nu}_provenance` is `corrected_to_reference` and their `source_ids` is empty — claiming
+`{rho,E,nu}_provenance` is `reference_value` and their `source_ids` is empty — claiming
 corpus support for a number the corpus does not contain would be false. Each bucket's
-`correction_note` in `buckets_properties.json` gives the reference.
+`basis_note` in `buckets_properties.json` names the reference.
 
 | Bucket | Parts | rho | E | nu | What it covers |
 |---|---:|---:|---:|---:|---|

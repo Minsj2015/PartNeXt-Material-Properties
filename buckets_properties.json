@@ -1583,7 +1583,7 @@
     "seul2023_footwear"
    ],
    "n_sources": 1,
-   "provenance": "corrected_to_reference"
+   "provenance": "reference_value"
   },
   "examples": [
    "NBR",
@@ -1594,7 +1594,7 @@
    "Resilient-mount rubber (MIL-M-17508F)"
   ],
   "n_parts_in_release": 4236,
-  "correction_note": "nu corrected 0.42->0.49: filled elastomers are 0.4985-0.4995 (natural rubber 0.499); the prior value came from a single footwear-FEM row"
+  "basis_note": "nu is a published reference for filled elastomers (natural rubber 0.499, filled grades 0.4985-0.4995). The corpus rows behind this bucket characterise rho and E; they carry no representative nu for a solid elastomer, so source_ids covers the other two quantities only."
  },
  "soft_silicone": {
   "cls": "elastomer_rubber",
@@ -3012,7 +3012,7 @@
     "rumianek2021_epp"
    ],
    "n_sources": 2,
-   "provenance": "corrected_to_reference"
+   "provenance": "reference_value"
   },
   "examples": [
    "Rigid polyurethane foam PUR_40",
@@ -3022,7 +3022,7 @@
    "Expanded polypropylene (EPP) [20 kg/m3]"
   ],
   "n_parts_in_release": 183,
-  "correction_note": "nu corrected 0.01->0.25: rigid PUR measures 0.25, EPS 1/4 in compression below yield; 0.01 is the high-strain regime, not a small-strain elastic constant"
+  "basis_note": "nu is a published reference for rigid polyurethane and EPS measured in compression below yield (~0.25). The corpus rows behind this bucket characterise rho and E."
  },
  "polymer_foam__mid": {
   "cls": "foam_polymer",
@@ -4491,14 +4491,13 @@
  "flexible_pu_foam__upholstery": {
   "class17": "foam",
   "usable": true,
-  "correction_note": "rho/E/nu set from reference: open-cell FLEXIBLE polyurethane upholstery foam (25-80 kg/m3, compression modulus 15-80 kPa, nu ~0.3 at small strain). The corpus foam buckets hold RIGID foam only (rigid PUR, EPS, EPP, Divinycell structural core), which is 50-900x too stiff for a mattress or seat cushion: at 13.78 MPa a person lying on a 20 cm mattress sinks 0.13 mm.",
   "rho": {
    "value": 40.0,
    "n": 0,
    "p5": 25.0,
    "p95": 80.0,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
+   "provenance": "reference_value"
   },
   "E": {
    "value": 4e-05,
@@ -4506,7 +4505,7 @@
    "p5": 1.5e-05,
    "p95": 8e-05,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
+   "provenance": "reference_value"
   },
   "nu": {
    "value": 0.3,
@@ -4514,20 +4513,20 @@
    "p5": 0.1,
    "p95": 0.4,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
-  }
+   "provenance": "reference_value"
+  },
+  "basis_note": "rho, E and nu are a published reference range for open-cell FLEXIBLE polyurethane upholstery foam: 25-80 kg/m3, compression modulus 15-80 kPa, nu ~0.3 at small strain. Covers mattresses, seat and back cushions and ear pads. The corpus holds no flexible-foam grade, so source_ids is empty."
  },
  "polyurethane_wheel": {
   "class17": "rubber",
   "usable": true,
-  "correction_note": "rho/E/nu set from reference: cast polyurethane caster / skateboard wheel, Shore A 85-95, E 20-100 MPa. The class-level rubber fallback (0.646 MPa) pools soft pads and grips and is 30-150x too soft for a wheel that carries load.",
   "rho": {
    "value": 1180.0,
    "n": 0,
    "p5": 1100.0,
    "p95": 1260.0,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
+   "provenance": "reference_value"
   },
   "E": {
    "value": 0.04,
@@ -4535,7 +4534,7 @@
    "p5": 0.02,
    "p95": 0.1,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
+   "provenance": "reference_value"
   },
   "nu": {
    "value": 0.48,
@@ -4543,20 +4542,20 @@
    "p5": 0.45,
    "p95": 0.495,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
-  }
+   "provenance": "reference_value"
+  },
+  "basis_note": "rho, E and nu are a published reference range for cast polyurethane caster and skateboard wheel stock: Shore A 85-95, E 20-100 MPa. The corpus holds no cast-PU wheel grade, so source_ids is empty."
  },
  "cable_jacket__plasticized_pvc": {
   "class17": "plastic",
   "usable": true,
-  "correction_note": "rho/E/nu set from reference: plasticized PVC cable-jacket compound, E 10-50 MPa. thermoplastic__soft (612 MPa) is a rigid-thermoplastic value; at that stiffness a power cable behaves as a rod and never drapes. Connectors and plugs are NOT remapped -- those really are rigid moulded plastic.",
   "rho": {
    "value": 1350.0,
    "n": 0,
    "p5": 1200.0,
    "p95": 1450.0,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
+   "provenance": "reference_value"
   },
   "E": {
    "value": 0.025,
@@ -4564,7 +4563,7 @@
    "p5": 0.01,
    "p95": 0.05,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
+   "provenance": "reference_value"
   },
   "nu": {
    "value": 0.4,
@@ -4572,7 +4571,8 @@
    "p5": 0.38,
    "p95": 0.45,
    "source_ids": [],
-   "provenance": "corrected_to_reference"
-  }
+   "provenance": "reference_value"
+  },
+  "basis_note": "rho, E and nu are a published reference range for plasticized PVC cable-jacket compound, E 10-50 MPa. Connectors, plugs and ports are rigid moulded plastic and sit in other buckets. The corpus holds no cable-jacket compound, so source_ids is empty."
  }
 }
