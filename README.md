@@ -108,9 +108,9 @@ never a failed join.
 `deformable` (1–100 MPa), `soft` (< 1 MPa). Only the non-rigid ones belong in a deformable
 solver; `E` and `nu` never enter a rigid-body solve.
 
-**Read `sim_caveat` before routing a part.** 47,465 parts (14.3%) carry one of two warnings.
+**Read `sim_caveat` before routing a part.** 46,687 parts (14.0%) carry one of two warnings.
 
-- *Dimensional basis (42,087 parts).* Woven-textile `E` (1.2e-4 GPa) is a cloth **membrane
+- *Dimensional basis (41,309 parts).* Woven-textile `E` (1.2e-4 GPa) is a cloth **membrane
   modulus** — physically N/m, not Pa — and `rho` (307 kg/m³) is a bulk packing density.
   These belong in a cloth or shell solver and are **not valid for volumetric FEM/MPM**.
   Foam `E` is an effective compressive modulus and `nu` is apparent, not the cell-wall value.
@@ -131,7 +131,7 @@ corpus support for a number the corpus does not contain would be false. Each buc
 | `flexible_pu_foam__upholstery` | 169 | 40 | 40 kPa | 0.30 | open-cell flexible upholstery foam — mattresses, cushions, ear pads |
 | `cable_jacket__plasticized_pvc` | 92 | 1350 | 25 MPa | 0.40 | plasticized PVC cable and wire jacket compound |
 
-43% of objects mix rigid and soft bodies — a sofa's steel frame (203 GPa) against its
+42% of objects mix rigid and soft bodies — a sofa's steel frame (203 GPa) against its
 upholstery (1.2e-4 GPa) spans 1.7 × 10⁶. That is physically real, but one explicit solver is
 throttled by the stiffest part's CFL. Follow `sim_object_solver_plan`.
 
