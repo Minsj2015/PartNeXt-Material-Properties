@@ -93,8 +93,8 @@ python3 test_scripts.py
 | Parts annotated | **333,152 / 350,145** (95.15%) |
 | Models | **23,221 / 23,519** |
 | Every `part_id` resolves to an official `masks` key | **333,152 / 333,152 = 100.0000%** |
-| All three properties present | 329,441 (98.89%); 3,711 abstain (sanitary whiteware) |
-| Objects with **no** property at all | **628** (1,523 parts) — every part abstained, so these models cannot be loaded into a simulator as-is |
+| All three properties present | 329,451 (98.89%); 3,701 abstain (sanitary whiteware) |
+| Objects with **no** property at all | **623** (1,509 parts) — every part abstained, so these models cannot be loaded into a simulator as-is |
 
 16,993 PartNeXt parts carry no annotation: 9,844 are geometrically degenerate (≤2 faces),
 2,711 sit in 298 models with no GLB upstream, 12 have no `hierarchyList` node, and
@@ -108,9 +108,9 @@ never a failed join.
 `deformable` (1–100 MPa), `soft` (< 1 MPa). Only the non-rigid ones belong in a deformable
 solver; `E` and `nu` never enter a rigid-body solve.
 
-**Read `sim_caveat` before routing a part.** 46,687 parts (14.0%) carry one of two warnings.
+**Read `sim_caveat` before routing a part.** 46,745 parts (14.0%) carry one of two warnings.
 
-- *Dimensional basis (41,309 parts).* Woven-textile `E` (1.2e-4 GPa) is a cloth **membrane
+- *Dimensional basis (41,367 parts).* Woven-textile `E` (1.2e-4 GPa) is a cloth **membrane
   modulus** — physically N/m, not Pa — and `rho` (307 kg/m³) is a bulk packing density.
   These belong in a cloth or shell solver and are **not valid for volumetric FEM/MPM**.
   Foam `E` is an effective compressive modulus and `nu` is apparent, not the cell-wall value.
