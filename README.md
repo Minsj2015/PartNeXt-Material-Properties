@@ -102,53 +102,38 @@ python3 test_scripts.py
 keyboards and laptops. A missing `(model_id, part_id)` always means *not annotated*,
 never a failed join.
 
-## Revision 2 — deformation-critical property fix
+## Simulation-readiness notes
 
-Scoped to the parts whose material or property values reach a **soft-body deformation**
-solve (`MPM.Elastic` / `FEM.Elastic`). Rigid and cloth parts were left untouched on purpose:
-`E` and `nu` never enter the rigid solver, so editing them there would churn the release
-without changing any simulation.
+`sim_body_type` splits parts by stiffness: `rigid` (E ≥ 1 GPa), `semi_rigid` (0.1–1 GPa),
+`deformable` (1–100 MPa), `soft` (< 1 MPa). Only the non-rigid ones belong in a deformable
+solver; `E` and `nu` never enter a rigid-body solve.
 
-| Change | Rows |
-|---|---:|
-| values changed — 5,564 deformation-critical, 38 to keep each `(bucket, material_class)` key single-valued, 4 whose material class was untenable for a part being deformed | **5,606** |
-| remapped to three new handbook-reference buckets (below) | 586 |
-| `sim_caveat` gains a near-incompressibility note | 5,378 |
-| `{rho,E,nu}_provenance` → `corrected_to_reference` | 5,918 |
-| missing `membrane_modulus` caveat restored | 1,064 |
-| interval endpoints widened to the point value's own precision | 1,064 |
+**Read `sim_caveat` before routing a part.** 47,465 parts (14.3%) carry one of two warnings.
 
-Three groups of parts were drawing from corpus buckets whose sources describe a *different*
-material. The corpus has no entry for the right one, so each got its own bucket with
-`interval_kind = reference_range`, `provenance = corrected_to_reference` and empty
-`source_ids` — claiming corpus support for a number the corpus does not contain would be
-false. The reasoning for each is in `buckets_properties.json` → `correction_note`.
+- *Dimensional basis (42,087 parts).* Woven-textile `E` (1.2e-4 GPa) is a cloth **membrane
+  modulus** — physically N/m, not Pa — and `rho` (307 kg/m³) is a bulk packing density.
+  These belong in a cloth or shell solver and are **not valid for volumetric FEM/MPM**.
+  Foam `E` is an effective compressive modulus and `nu` is apparent, not the cell-wall value.
+- *Near-incompressibility (5,378 parts, `nu >= 0.45`).* The bulk modulus reaches roughly 50x
+  the shear modulus, where low-order tetrahedral FEM volumetrically locks. Use a corotational
+  MPM with enough substeps — about 250 at `dt = 1e-2` on a 15.6 mm grid — or an FEM
+  stable-neo-Hookean model. Size the substep count from `sim_p_wave_speed_m_s`.
 
-| New bucket | Parts | Was | Now | Why |
-|---|---:|---|---|---|
-| `flexible_pu_foam__upholstery` | 169 | 3.69 / 13.78 MPa | **40 kPa** | Mattresses, cushions and ear pads were priced off `polymer_foam__soft`, whose sources are **rigid** foam only (rigid PUR, EPS, EPP, Divinycell). At 13.78 MPa a person lying on a 20 cm mattress sinks 0.13 mm. |
-| `polyurethane_wheel` | 325 | 0.646 MPa | **40 MPa** | Caster and skateboard wheels sat in the class-level rubber fallback, which pools soft pads and grips. Cast PU wheel stock is Shore A 85–95. |
-| `cable_jacket__plasticized_pvc` | 92 | 612 MPa | **25 MPa** | Cables took a rigid-thermoplastic value and behaved as rods. Connectors and plugs were **not** remapped — those really are rigid moulded plastic. |
+Three buckets carry `interval_kind = reference_range`: their value and interval come from a
+published handbook range because the 79-source corpus holds no grade for that material. Their
+`{rho,E,nu}_provenance` is `corrected_to_reference` and their `source_ids` is empty — claiming
+corpus support for a number the corpus does not contain would be false. Each bucket's
+`correction_note` in `buckets_properties.json` gives the reference.
 
-Also: `engineering_rubber` `nu` 0.42 → 0.49 and `polymer_foam__soft` `nu` 0.01 → 0.25.
+| Bucket | Parts | rho | E | nu | What it covers |
+|---|---:|---:|---:|---:|---|
+| `polyurethane_wheel` | 325 | 1180 | 40 MPa | 0.48 | cast PU caster and skateboard wheels, Shore A 85–95 |
+| `flexible_pu_foam__upholstery` | 169 | 40 | 40 kPa | 0.30 | open-cell flexible upholstery foam — mattresses, cushions, ear pads |
+| `cable_jacket__plasticized_pvc` | 92 | 1350 | 25 MPa | 0.40 | plasticized PVC cable and wire jacket compound |
 
-1,064 class-level `fabric` rows carried values **byte-identical** to the 40,055 rows in
-`woven_textile__membrane_modulus` but no `sim_caveat`. Any loader routing on that column
-sent them into a **volumetric** solver, where a 120 kPa *membrane* modulus (N/m) is read as
-a bulk modulus (Pa). No value was altered — only the missing warning was restored.
-
-All 6,789 parts that reach `MPM.Elastic` or `FEM.Elastic` now pass: `nu` inside the
-constitutive domain, `K` and `G` positive, `E` within 1e2–1e12 Pa, every derived `sim_*`
-column self-consistent with `(rho, E, nu)`, substeps ≤ 641 at the default timestep, and no
-membrane-dimension part in a volumetric solver. The agreement figures below are unchanged by
-this revision — verified by re-running the same protocol on both versions.
-
-**Still knowingly wrong, out of scope for this revision:** 778 `Sofa|*Support Box` parts at
-foam 13.78 MPa (the name suggests an internal frame, so the fix is a material-class decision
-first); the 3,711 abstained parts and the 628 objects they make unusable; household lighting
-glass filed as `borosilicate`; load-bearing hardware whose alloy came from surface colour
-(`golden_hue` / `reddish_hue` in `bucket_basis`); `copper` `nu = 0.27`. `bucket_basis` names
-the rule behind every bucket choice, so those rows can be selected directly.
+43% of objects mix rigid and soft bodies — a sofa's steel frame (203 GPa) against its
+upholstery (1.2e-4 GPa) spans 1.7 × 10⁶. That is physically real, but one explicit solver is
+throttled by the stiffest part's CFL. Follow `sim_object_solver_plan`.
 
 ---
 
