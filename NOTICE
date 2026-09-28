@@ -1,0 +1,30 @@
+Copyright (c) 2026 Shengjie (Minsj2015)
+
+The tooling in this repository and the annotation layer of the companion dataset
+
+    https://huggingface.co/datasets/minsj1225/PartNeXt-Material-Properties
+
+are licensed under CC BY 4.0 (see LICENSE).
+
+Third-party material
+--------------------
+PartNeXt meshes and part masks are CC BY 4.0 by their authors:
+    https://huggingface.co/datasets/AuWang/PartNeXt
+    https://huggingface.co/datasets/AuWang/PartNeXt_mesh
+
+The physical-property values are NOT uniformly licensed. They are drawn from a corpus of
+82 sources whose licences are not mutually compatible, and each value inherits the licence
+of the sources it was measured from. Every row of the annotation table carries a
+`license_tier` column giving the strictest licence that applies to it:
+
+    PERMISSIVE        85,763   CC0 / CC BY / MIT
+    PUBLIC_DOMAIN     92,825   US Government works
+    COPYLEFT          96,733   CC BY-SA 4.0 and ODbL -- share-alike, and mutually incompatible
+    NONCOMMERCIAL_OK  41,177   ARCSim cloth database -- non-profit use only, NOT for commercial use
+    SPEC_DATA_CITED   12,205   manufacturer datasheet -- cited, not relicensed
+    NO_SOURCE          4,449   abstained rows, no property values
+
+183,037 parts (54.9%) carry no share-alike or non-commercial obligation.
+
+Attribution is a condition of use for most of the corpus. Required citations, per source,
+are listed in the License section of README.md and per row in material_corpus_sources.csv.
